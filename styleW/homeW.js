@@ -59,7 +59,8 @@ const HomeW = styled.div`
         color:black;
     }
     .section4{
-        padding:100px 0;
+        padding:100px 0 0 0;
+        min-height:100vh;
         background-image: linear-gradient(to right top, #c67da6, #c48bbb, #bf99cd, #baa8dc, #b5b6e8, #afb7ea, #a8b9ec, #a1baee, #95afe9, #8aa5e4, #7f9adf, #758fda);
         background-size: 300% 300%;
         animation: nimadr 15s infinite;

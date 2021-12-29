@@ -103,6 +103,7 @@ const Home2 = () => {
 
 
                 <div className="section3">
+                 
                     <h1 className='text-center'>Bizning manzil</h1>
                     <div className="col-12">
                         <iframe

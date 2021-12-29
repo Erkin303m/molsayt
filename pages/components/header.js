@@ -46,7 +46,11 @@ const Header = () => {
                                     </Link>
                                 </li>
                             </ul>
-                            <button className='btn btn-light'>online</button>
+                            <Link href="/buy">
+                                <a className='headerMenu'>
+                                    <button className='btn btn-light'>Buy</button>
+                                </a>
+                            </Link>
                         </div>
                     </div>
                 </div>
