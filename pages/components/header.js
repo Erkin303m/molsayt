@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 import ComponentsW from '../../styleW/componentsW'
 
@@ -13,11 +14,17 @@ const Header = () => {
 
                         <div className="headerOng">
                             <ul>
-                                <li>menu 1</li>
-                                <li>menu 2</li>
-                                <li>menu 3</li>
+                                <li>
+                                    <Link href="/">
+                                        <a className='headerMenu'>
+                                            Asosiy
+                                        </a>
+                                    </Link>
+                                </li>
+                                <li>Katalog</li>
+                                <li>Biz haqimizda</li>
                             </ul>
-                            <button className='btn btn-danger'>vndfj</button>
+                            <button className='btn btn-light'>online</button>
                             <p>korzina</p>
                         </div>
                     </div>

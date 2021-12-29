@@ -33,6 +33,31 @@ const Home2 = () => {
                     <meta name="description" content="home page" />
                     <link rel="icon" href="/favicon.ico" />
                 </Head>
+
+                <div className="section2">
+                    <div className="col-12">
+                        <Carousel onSlide={(e) => setNumber(e)}>
+                            {data4.map((v, i) => {
+                                return <Carousel.Item key={i}>
+                                    <div className="sliderCard">
+                                        <img
+                                            className="rasmSlider"
+                                            src={v.rasm}
+                                            alt={v.rasm}
+                                        />
+                                    </div>
+                                    <Carousel.Caption>
+                                        <h3>{v.text}</h3>
+                                        <p>{v.text2}</p>
+                                    </Carousel.Caption>
+                                </Carousel.Item>
+                            })}
+
+                        </Carousel>
+
+                    </div>
+                </div>
+
                 <div className="section1">
                     <div className="container">
                         <div className="row">
@@ -60,33 +85,7 @@ const Home2 = () => {
                         </div>
                     </div>
 
-                    <div className="section2">
-                        <div className="container">
-                            <div className="row">
-                                <div className="col-12">
-                                    <Carousel onSlide={(e) => setNumber(e)}>
-                                    {data4.map((v, i) => {
-                                        return <Carousel.Item key={i}>
-                                            <div className="sliderCard">
-                                                <img
-                                                    className="rasmSlider"
-                                                    src={v.rasm}
-                                                    alt={v.rasm}
-                                                />
-                                            </div>
-                                            <Carousel.Caption>
-                                                <h3>{v.text}</h3>
-                                                <p>{v.text2}</p>
-                                            </Carousel.Caption>
-                                        </Carousel.Item>
-                                    })}
-
-                                </Carousel>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                  
                 </div>
               
             </All>

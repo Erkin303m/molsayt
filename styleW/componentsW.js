@@ -7,15 +7,16 @@ const ComponentsW=styled.div`
     left:0;
     right:0;
     z-index:100;
-    background:green;
+    background: #285493;
 }
     .children{
         min-height:100vh;
-        padding-top:100px;
+        padding-top:30px;
     }
     .header1{
         display:flex;
         justify-content: space-between;
+        padding: 5px 5px;
         
         .headerOng{
             display: flex;
@@ -27,12 +28,18 @@ const ComponentsW=styled.div`
                 li{
                     margin:5px;
                     padding: 5px;
+                    .headerMenu{
+                        text-decoration: none;
+                        color:white ;
+
+                        
+                    }
                 }
             }
         }
     }
     .headerLogo{
-        width:50px;
+        width:100px;
         height:50px;
         object-fit:cover;
     }
