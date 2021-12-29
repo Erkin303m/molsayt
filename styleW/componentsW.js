@@ -43,6 +43,24 @@ const ComponentsW=styled.div`
         height:50px;
         object-fit:cover;
     }
+    .footerSection{
+        background: #285493;
+        padding:10px 0;
+        font-size:18px;
+        color:white;
+
+        a{
+            color:white ;
+            text-decoration: none;
+            font-size:18px;
+        }
+        .logoFooter{
+            width: 150px;
+        }
+    }
+    .section3{
+        padding:50px;
+    }
 `;
 
 export default ComponentsW

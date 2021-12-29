@@ -4,11 +4,11 @@ import HomeW from '../styleW/homeW'
 
 
 
-const Page1 = () => {
+const Page2= () => {
     return (
         <HomeW>
             <All>
-                <div className="section1">
+              <div className="section1">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-4 col-md-6 col-sm-12">
@@ -22,10 +22,10 @@ const Page1 = () => {
                             </div>
                         </div>
                     </div>
-                </div>
+              </div>
             </All>
         </HomeW>
     )
 }
 
-export default Page1
+export default Page2

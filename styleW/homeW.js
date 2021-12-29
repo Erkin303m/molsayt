@@ -43,15 +43,15 @@ const HomeW = styled.div`
     }
     .rasmSlider{
         width: 100%;
-        height: 600px;
+        height: 800px;
         object-fit:cover;
     }
     .section2{
         width: 100%;
     }
-      a{
-                    color:black;
-                }
+    a{
+        color:black;
+    }
 `;
 
 export default HomeW

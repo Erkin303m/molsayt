@@ -25,7 +25,6 @@ const Header = () => {
                                 <li>Biz haqimizda</li>
                             </ul>
                             <button className='btn btn-light'>online</button>
-                            <p>korzina</p>
                         </div>
                     </div>
                 </div>

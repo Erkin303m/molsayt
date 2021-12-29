@@ -1,5 +1,10 @@
 import React from 'react'
 import ComponentsW from '../../styleW/componentsW'
+import { AiFillInstagram } from 'react-icons/ai';
+import { FaTelegram } from 'react-icons/fa';
+import { BsFacebook } from 'react-icons/bs';
+
+
 
 const Footer = () => {
     return (
@@ -8,15 +13,35 @@ const Footer = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-4 col-sm-12">
-                            <p>contacts</p>
+                            <p>Contacts</p>
+                            <p>+998948998989</p>
+                            <p>+998948900989</p>
                         </div>
 
                         <div className="col-lg-4 col-sm-12">
-                            <p>contacts</p>
+                            <p>Messengerlar</p>
+                            <p>
+                                <a href="">
+                                    <AiFillInstagram /> Instagram
+                                </a>
+                            </p>
+
+                            <p>
+                                <a href="">
+                                    <FaTelegram /> Telegram
+                                </a>
+                            </p>
+
+                            <p>
+                                <a href="">
+                                    <BsFacebook /> Telegram
+                                </a>
+                            </p>
                         </div>
 
                         <div className="col-lg-4 col-sm-12">
-                            <p>contacts</p>
+                            <p>Company name</p>
+                            <img src="logo.png" alt="mol" className='logoFooter' />
                         </div>
                     </div>
                 </div>

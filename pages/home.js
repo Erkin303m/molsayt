@@ -87,6 +87,22 @@ const Home2 = () => {
 
                   
                 </div>
+
+
+                <div className="section3">
+                    <h1 className='text-center'>Bizning manzil</h1>
+                    <div className="col-12">
+                        <iframe
+                            className="maps"
+                            width="100%"
+                            height="500"
+                            frameBorder="0"
+                            style={{ border: 0, marginBottom: -6 }}
+                            src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAbG6vGRHd9fMB_GhUei3T-1f1Km3QpvbQ&q=41.3401699,69.2944457&language=ru&maptype=satellite"
+                            allowFullScreen
+                        />
+                    </div>
+                </div>
               
             </All>
         </HomeW>
