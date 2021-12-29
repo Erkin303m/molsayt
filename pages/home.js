@@ -37,7 +37,7 @@ const Home2 = () => {
                     <div className="container">
                         <div className="row">
                             {dataPage.map((v, i) => {
-                                return <div className="col-lg-4 col-md-6 col-sm-12">
+                                return <div className="col-lg-4 col-md-6 col-sm-12" key={i+1}>
                                     <Link href={`/${v.page}`}>
                                         <a>
                                             <div className='asosiy'>
@@ -66,7 +66,7 @@ const Home2 = () => {
                                 <div className="col-12">
                                     <Carousel onSlide={(e) => setNumber(e)}>
                                     {data4.map((v, i) => {
-                                        return <Carousel.Item >
+                                        return <Carousel.Item key={i}>
                                             <div className="sliderCard">
                                                 <img
                                                     className="rasmSlider"
