@@ -1,8 +1,10 @@
 import React from 'react'
 import ComponentsW from '../../styleW/componentsW'
-import { AiFillInstagram } from 'react-icons/ai';
+import { AiFillInstagram, AiFillYoutube } from 'react-icons/ai';
 import { FaTelegram } from 'react-icons/fa';
 import { BsFacebook } from 'react-icons/bs';
+
+
 
 
 
@@ -37,11 +39,18 @@ const Footer = () => {
                                     <BsFacebook /> Telegram
                                 </a>
                             </p>
+
+                            <p>
+                                <a href="">
+                                    <AiFillYoutube /> YouTube
+                                </a>
+                            </p>
+                            
                         </div>
 
                         <div className="col-lg-4 col-sm-12">
                             <p>Company name</p>
-                            <img src="logo.png" alt="mol" className='logoFooter' />
+                            <img src="logok.jpg" alt="mol" className='logoFooter' />
                         </div>
                     </div>
                 </div>

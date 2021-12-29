@@ -4,6 +4,9 @@ import All from './components/all'
 import { Carousel } from 'react-bootstrap';
 import Head from 'next/head'
 import Link from 'next/link';
+import { useRouter } from 'next/router'
+
+
 
 
 
@@ -16,14 +19,26 @@ const data4 = [
     { rasm: "mol1.jpg", text1: "salom", text2: "salom2" },
 ];
 const dataPage = [
-    { page: "page1", nomi: "dori 1", rasm: "mol1.jpg" },
-    { page: "page2", nomi: "dori 2", rasm: "mol1.jpg"  },
-    { page: "page3", nomi: "dori 3", rasm: "mol1.jpg"  },
-    { page: "page4", nomi: "dori 4", rasm: "mol1.jpg"  },
+    { page: "page1", nomi: "Паразитларга қарши воситалар", rasm: "mol1.jpg" },
+    { page: "page2", nomi: "Антибактериал ва яллиғланишга қарши воситалар", rasm: "mol1.jpg"  },
+    { page: "page3", nomi: "Акушерликғ-гинекологик воситалар", rasm: "mol1.jpg"  },
+    { page: "page4", nomi: "Витамин-минерал воситалар", rasm: "mol1.jpg" },
+    { page: "page5", nomi: "Бошқа  фарм гурухлар ", rasm: "mol1.jpg" }
 ];
 
 const Home2 = () => {
     const [number, setNumber] = useState(0);
+    const Router = useRouter();
+  
+
+
+    const NextPage = (v) => {
+        Router.push({
+            pathname: "/page1",
+            query: { doriTuri: v.page }
+        })
+        console.log(Router.query);
+    }
 
     return (
         <HomeW>
@@ -63,21 +78,19 @@ const Home2 = () => {
                         <div className="row">
                             {dataPage.map((v, i) => {
                                 return <div className="col-lg-4 col-md-6 col-sm-12" key={i+1}>
-                                    <Link href={`/${v.page}`}>
-                                        <a>
-                                            <div className='asosiy'>
-                                                <div className="oddiy">
-                                                    <img src={v.rasm} alt="mol" className='molAbsolut' />
-                                                </div>
-
-                                                <div className="absolut">
-                                                    <h1>{v.nomi}</h1>
-                                                </div>
-
+                                    <a onClick={() => NextPage(v)}>
+                                        <div className='asosiy' data-aos="zoom-out-up" data-aos-delay={i*100}>
+                                            <div className="oddiy">
+                                                <img src={v.rasm} alt="mol" className='molAbsolut' />
                                             </div>
-                                        </a>
 
-                                    </Link>
+                                            <div className="absolut">
+                                                <p className='doriCatalog'>{v.nomi}</p>
+                                            </div>
+
+                                        </div>
+                                    </a>
+
 
                                 </div>
                             })}

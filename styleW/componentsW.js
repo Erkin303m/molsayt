@@ -55,7 +55,7 @@ const ComponentsW=styled.div`
             font-size:18px;
         }
         .logoFooter{
-            width: 150px;
+            width: 200px;
         }
     }
     .section3{

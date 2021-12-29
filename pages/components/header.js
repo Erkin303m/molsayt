@@ -1,8 +1,18 @@
 import Link from 'next/link'
-import React from 'react'
+import React, { useEffect } from 'react'
 import ComponentsW from '../../styleW/componentsW'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+import 'animate.css';
+
 
 const Header = () => {
+    
+
+    useEffect(() => {
+        AOS.init();
+    }, [])
+
     return (
         <ComponentsW>
             <div className="headersection">
@@ -14,15 +24,27 @@ const Header = () => {
 
                         <div className="headerOng">
                             <ul>
-                                <li>
+                                <li class="animate__animated animate__bounceInDown animate__delay-0">
                                     <Link href="/">
                                         <a className='headerMenu'>
                                             Asosiy
                                         </a>
                                     </Link>
                                 </li>
-                                <li>Katalog</li>
-                                <li>Biz haqimizda</li>
+                                <li class="animate__animated animate__bounceInDown animate__delay-1s">
+                                    <Link href="/page1">
+                                        <a className='headerMenu'>
+                                            Kontaktlar
+                                        </a>
+                                    </Link>
+                                </li>
+                                <li class="animate__animated animate__bounceInDown animate__delay-2s">
+                                    <Link href="/page1">
+                                        <a className='headerMenu'>
+                                            Biz haqimizda
+                                        </a>
+                                    </Link>
+                                </li>
                             </ul>
                             <button className='btn btn-light'>online</button>
                         </div>
