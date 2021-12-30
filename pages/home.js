@@ -44,7 +44,7 @@ const Home2 = () => {
         <HomeW>
             <All>
                 <Head>
-                    <title>Home app</title>
+                    <title>Vetco</title>
                     <meta name="description" content="home page" />
                     <link rel="icon" href="/favicon.ico" />
                 </Head>
