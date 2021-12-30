@@ -24,7 +24,7 @@ const Header = () => {
                         </div>
 
                         <div className="headerOng">
-                            <ul>
+                            <ul className='headerUl'>
                                 <li class="animate__animated animate__bounceInDown animate__delay-0">
                                     <Link href="/">
                                         <a className='headerMenu'>
@@ -46,12 +46,15 @@ const Header = () => {
                                         </a>
                                     </Link>
                                 </li>
+                                <li class="animate__animated animate__bounceInDown animate__delay-2s">
+                                    <Link href="/buy">
+                                        <a className='headerMenu'>
+                                            <button className='btn btn-light'>Buy</button>
+                                        </a>
+                                    </Link>
+                                </li>
                             </ul>
-                            <Link href="/buy">
-                                <a className='headerMenu'>
-                                    <button className='btn btn-light'>Buy</button>
-                                </a>
-                            </Link>
+                           
                             <Navbar className="navbar" />
                         </div>
                     </div>
