@@ -22,7 +22,7 @@ const Buy = () => {
             timer: 2000
         });
 
-        // Array.from(document.querySelectorAll("input")).forEach(input => (input.value = ""));
+        Array.from(document.querySelectorAll("input")).forEach(input => (input.value = ""));
     }
     return (
         <All>
@@ -35,23 +35,23 @@ const Buy = () => {
 
                             <div className="col-sm-12 col-lg-6">
                                 <div className="inputCard" data-aos="zoom-in-right" data-aos-delay='100'>
-                                    <label className="labelI" for="FIO">FIO</label>
+                                    <label className="labelI" >FIO</label>
                                     <input type="text" className="form-control" id="FIO" name="FIO" />
                                 </div>
 
                                 <div className="inputCard " data-aos="zoom-in-right" data-aos-delay='100'>
-                                    <label className="labelI" for="NUM" >Telefon raqam</label>
+                                    <label className="labelI" >Telefon raqam</label>
                                     <input type="text" className="form-control" id="NUM" name="NUM" />
                                 </div>
                             </div>
 
                             <div className="col-sm-12 col-lg-6">
                                 <div className="inputCard" data-aos="zoom-in-left" data-aos-delay='100'>
-                                    <label className="labelI" for="namekurs" >Olmoqchi bo'lgan mahsulotlaringiz</label>
+                                    <label className="labelI"  >Olmoqchi bo'lgan mahsulotlaringiz</label>
                                     <input type="text" className="form-control" id="namekurs" name="KURS" />
                                 </div>
                                 <div className="inputCard" data-aos="zoom-in-left" data-aos-delay='100'>
-                                    <label className="labelI" for="nimadir" >Nimadir</label>
+                                    <label className="labelI"  >Nimadir</label>
                                     <input type="text" className="form-control" id="nimadir" name='NIM' />
                                 </div>
 
@@ -59,7 +59,7 @@ const Buy = () => {
 
                             <div className='col-12'>
                                 <div className='inputCard2' data-aos="zoom-out">
-                                        <label className="labelI" for="nimadir2" >Savollaringizni yo'llang !</label>
+                                        <label className="labelI"  >Savollaringizni yo'llang !</label>
                                         <textarea className="form-control" aria-label="With textarea" name="TEXT"></textarea>
                                 </div>
                                 <div className='d-flex justify-content-center' data-aos="zoom-out">
