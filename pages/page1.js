@@ -14,18 +14,29 @@ import { Button, Modal } from 'react-bootstrap';
 
 const Page1 = () => {
     const Router=useRouter();
-    const Data2 = [];
-    const [show, setShow] = useState(false);
+    const Router2 = useRouter();
 
-    const handleClose = () => setShow(false);
-    const handleShow = () => setShow(true);
+    const Data2 = [];
+    let ii;
 
     for (let i = 0; i < Data.length; i++) {
         if (Data[i].name == Router.query.doriTuri) {
             Data2.push(Data[i]);
+            ii=i;
         }
     }
-    console.log("malumot qoshildi", Data2);
+
+    // console.log("malumot qoshildi", Data2);
+
+
+    const NextPage2 = (v) => {
+        Router2.push({
+            pathname: "/page2",
+            query: { ...v }
+        })
+        console.log( "malunmot ketti" , Router2.query);
+    }
+
  
 
     return (
@@ -43,24 +54,14 @@ const Page1 = () => {
                                             <p className="nomi">{v.nomi}</p>
                                             <div className='DoriBut'>
                                                 <p className="narxi">{v.narxi}</p>
-                                                <button className='btn btn-primary' onClick={handleShow}>
+                                                <button className='btn btn-primary' onClick={() => NextPage2(v)}>
                                                     Info
                                                 </button>
                                             </div>
                                            
 
                                             
-                                            <Modal show={show} onHide={handleClose}>
-                                                <Modal.Header closeButton>
-                                                    <Modal.Title>Dori malumotlari</Modal.Title>
-                                                </Modal.Header>
-                                                <Modal.Body> {v.malumot} </Modal.Body>
-                                                <Modal.Footer>
-                                                    <Button variant="secondary" onClick={handleClose}>
-                                                        Yopish
-                                                    </Button>
-                                                </Modal.Footer>
-                                            </Modal>
+                                           
                                          
                                         </div>
                                     </div>

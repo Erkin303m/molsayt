@@ -4,6 +4,7 @@ import ComponentsW from '../../styleW/componentsW'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import 'animate.css';
+import Navbar from './navbar'
 
 
 const Header = () => {
@@ -51,6 +52,7 @@ const Header = () => {
                                     <button className='btn btn-light'>Buy</button>
                                 </a>
                             </Link>
+                            <Navbar className="navbar" />
                         </div>
                     </div>
                 </div>

@@ -1,10 +1,15 @@
 import React from 'react'
+import HomeW from '../styleW/homeW'
+
 
 const Error = () => {
     return (
-        <div>
-            <h1>hato</h1>
-        </div>
+        <HomeW>
+            <h1 className="text-center">404 Error</h1>
+            <div className="container errorSection">
+                <img src="error.png" alt="Afsuski bunday bo'lim yo'q yoki sayt ishlamadi" className='errorImg' />
+            </div>
+        </HomeW>
     )
 }
 

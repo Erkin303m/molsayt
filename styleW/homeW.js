@@ -108,6 +108,19 @@ const HomeW = styled.div`
            
         }
     }
+
+    /* error section */
+
+    .errorSection{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        width:100%;
+        height:100vh;
+        .errorImg{
+            width:100%;
+        }
+    }
   
 
   
