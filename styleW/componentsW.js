@@ -69,6 +69,9 @@ const ComponentsW=styled.div`
         padding:10px 0;
         font-size:18px;
         color:white;
+        p{
+            text-align:center;
+        }
         a{
             color:white ;
             text-decoration: none;
@@ -76,6 +79,10 @@ const ComponentsW=styled.div`
         }
         .logoFooter{
             width: 200px;
+        }
+        .logoFooterCard{
+            display:flex ;
+            justify-content:center;
         }
     }
     .section3{

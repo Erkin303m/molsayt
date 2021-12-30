@@ -27,7 +27,7 @@ const Buy = () => {
     return (
         <All>
             <HomeW>
-                  <div className="section4">
+                  <div className="section5">
                 <div className="container">
                     <h1 className="textLocation" >Registratsiya uchun  </h1>
                     <form onSubmit={sendEmail}>

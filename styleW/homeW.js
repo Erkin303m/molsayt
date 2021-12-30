@@ -58,6 +58,57 @@ const HomeW = styled.div`
     a{
         color:black;
     }
+  
+    .section5{
+        padding:100px 0 0 0;
+        min-height:100vh;
+       background-image: linear-gradient(to right top, #33d1e9, #57cffc, #83cbff, #adc6ff, #d1c0ff, #c9c6ff, #c2ccff, #bed1ff, #99dfff, #79ecff, #7bf5e6, #a1f9c1);
+        background-size: 300% 300%;
+        animation: nimadr 15s infinite;
+
+        @keyframes nimadr{
+            0%{
+                background-position:bottom left;
+            }
+            50%{
+                background-position: top right;
+            }
+            100%{
+                background-position: bottom left;
+            }
+        }
+        .doriRasm{
+            width:100%;
+            height:300px;
+            object-fit:cover;
+            border-radius:10px;
+            text-align:center;
+        }
+        .doriCard{
+            padding:10px;
+            border-radius:10px;
+            border:1px solid black;
+            margin: 20px 10px;
+            background: white;
+            .nomi{
+                color:black;
+                text-align:center;
+                font-weight:bold;
+
+            }
+            .DoriBut{
+                display: flex;
+                justify-content:space-between;
+                .narxi{
+                    color:green;
+                    font-weight:bold;   
+                    margin:0;
+                    padding:0;
+                }
+            }
+           
+        }
+    }
     .section4{
         padding:100px 0 0 0;
         min-height:100vh;

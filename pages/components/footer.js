@@ -50,7 +50,10 @@ const Footer = () => {
 
                         <div className="col-lg-4 col-sm-12">
                             <p>Company name</p>
-                            <img src="logok.jpg" alt="mol" className='logoFooter' />
+                            <div className="logoFooterCard">
+                            <img src="logof.jpg" alt="mol" className='logoFooter' />
+
+                            </div>
                         </div>
                     </div>
                 </div>

@@ -1,5 +1,6 @@
+import Link from 'next/link';
 import React from 'react';
-import { Button, Container, Form, FormControl, Nav, NavDropdown, Offcanvas } from 'react-bootstrap';
+import { Container, Nav, Offcanvas } from 'react-bootstrap';
 import Navbar from 'react-bootstrap/Navbar';
 
 
@@ -7,9 +8,10 @@ import Navbar from 'react-bootstrap/Navbar';
 const Nabar = () => {
     return (
         <div className='miniNav'>
-            <Navbar bg="light" expand={false}>
+            <Navbar  expand={false}>
                 <Container fluid>
-                    <Navbar.Toggle aria-controls="offcanvasNavbar" />
+                    <Navbar.Toggle aria-controls="offcanvasNavbar" className='btn btn-light'/>
+                    {/* <button className='btn btn-light'>Dashboard</button> */}
                     <Navbar.Offcanvas
                         id="offcanvasNavbar"
                         aria-labelledby="offcanvasNavbarLabel"
@@ -19,9 +21,28 @@ const Nabar = () => {
                         </Offcanvas.Header>
                         <Offcanvas.Body>
                             <Nav className="justify-content-end flex-grow-1 pe-3">
-                                <Nav.Link href="#action1">Servis</Nav.Link>
-                                <Nav.Link href="#action2">Project</Nav.Link>
-                                <Nav.Link href="#action2">About</Nav.Link>
+                                <Nav.Link  href='/'>
+                                    <a className='headerMenu'>
+                                        Asosiy
+                                    </a>
+                                </Nav.Link>
+                                 <Nav.Link  href='/'>
+                                    <a className='headerMenu'>
+                                        Kontakt
+                                    </a>
+                                </Nav.Link>
+                                <Nav.Link href='/'>
+                                    <a className='headerMenu'>
+                                        About us
+                                    </a>
+                                </Nav.Link>
+                                <Nav.Link href='/buy'>
+                                    <a className='headerMenu'>
+                                        Buy
+                                    </a>
+                                </Nav.Link>
+                               
+                              
                                
                             </Nav>
                            
