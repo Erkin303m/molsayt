@@ -34,48 +34,38 @@ const Buy = () => {
                         <div className="row">
 
                             <div className="col-sm-12 col-lg-6">
-
-                                <div class="inputCard" data-aos="zoom-in-right" data-aos-delay='100'>
-                                    <label class="labelI" for="FIO">FIO</label>
-                                    <input type="text" class="form-control" id="FIO" name="FIO" />
-                                    <div className='inputBottom'></div>
+                                <div className="inputCard" data-aos="zoom-in-right" data-aos-delay='100'>
+                                    <label className="labelI" for="FIO">FIO</label>
+                                    <input type="text" className="form-control" id="FIO" name="FIO" />
                                 </div>
 
-                                <div class="inputCard " data-aos="zoom-in-right" data-aos-delay='100'>
-                                    <label class="labelI" for="NUM" >Telefon raqam</label>
-                                    <input type="text" class="form-control" id="NUM" name="NUM" />
-                                    <div className='inputBottom'></div>
+                                <div className="inputCard " data-aos="zoom-in-right" data-aos-delay='100'>
+                                    <label className="labelI" for="NUM" >Telefon raqam</label>
+                                    <input type="text" className="form-control" id="NUM" name="NUM" />
                                 </div>
                             </div>
 
                             <div className="col-sm-12 col-lg-6">
-                                <div class="inputCard" data-aos="zoom-in-left" data-aos-delay='100'>
-                                    <label class="labelI" for="namekurs" >Olmoqchi bo'lgan mahsulotlaringiz</label>
-                                    <input type="text" class="form-control" id="namekurs" name="KURS" />
-                                    <div className='inputBottom'></div>
+                                <div className="inputCard" data-aos="zoom-in-left" data-aos-delay='100'>
+                                    <label className="labelI" for="namekurs" >Olmoqchi bo'lgan mahsulotlaringiz</label>
+                                    <input type="text" className="form-control" id="namekurs" name="KURS" />
                                 </div>
-
-                                <div class="inputCard" data-aos="zoom-in-left" data-aos-delay='100'>
-                                    <label class="labelI" for="nimadir" >Nimadir</label>
-                                    <input type="text" class="form-control" id="nimadir" name='NIM' />
-                                    <div className='inputBottom'></div>
+                                <div className="inputCard" data-aos="zoom-in-left" data-aos-delay='100'>
+                                    <label className="labelI" for="nimadir" >Nimadir</label>
+                                    <input type="text" className="form-control" id="nimadir" name='NIM' />
                                 </div>
 
                             </div>
 
                             <div className='col-12'>
                                 <div className='inputCard2' data-aos="zoom-out">
-                                    <label class="labelI" for="nimadir2" >Savollaringizni yo'llang !</label>
-                                    <textarea class="form-control" aria-label="With textarea" name="TEXT"></textarea>
-                                    <div className='inputBottom'></div>
+                                        <label className="labelI" for="nimadir2" >Savollaringizni yo'llang !</label>
+                                        <textarea className="form-control" aria-label="With textarea" name="TEXT"></textarea>
                                 </div>
                                 <div className='d-flex justify-content-center' data-aos="zoom-out">
                                     <button className='btn btn-primary mt-4'>Sotib olish</button>
                                 </div>
                             </div>
-
-
-
                         </div>
                     </form>
 
