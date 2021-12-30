@@ -25,28 +25,28 @@ const Header = () => {
 
                         <div className="headerOng">
                             <ul className='headerUl'>
-                                <li class="animate__animated animate__bounceInDown animate__delay-0">
+                                <li className="animate__animated animate__bounceInDown animate__delay-0">
                                     <Link href="/">
                                         <a className='headerMenu'>
                                             Asosiy
                                         </a>
                                     </Link>
                                 </li>
-                                <li class="animate__animated animate__bounceInDown animate__delay-1s">
+                                <li className="animate__animated animate__bounceInDown animate__delay-1s">
                                     <Link href="/page1">
                                         <a className='headerMenu'>
                                             Kontaktlar
                                         </a>
                                     </Link>
                                 </li>
-                                <li class="animate__animated animate__bounceInDown animate__delay-2s">
+                                <li className="animate__animated animate__bounceInDown animate__delay-2s">
                                     <Link href="/page1">
                                         <a className='headerMenu'>
                                             Biz haqimizda
                                         </a>
                                     </Link>
                                 </li>
-                                <li class="animate__animated animate__bounceInDown animate__delay-3s">
+                                <li className="animate__animated animate__bounceInDown animate__delay-3s">
                                     <Link href="/buy">
                                         <a className='headerMenu'>
                                             <button className='btn btn-light'>Buy</button>
