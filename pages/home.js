@@ -23,7 +23,8 @@ const dataPage = [
     { page: "page2", nomi: "Антибактериал ва яллиғланишга қарши воситалар", rasm: "mol1.jpg"  },
     { page: "page3", nomi: "Акушерликғ-гинекологик воситалар", rasm: "mol1.jpg"  },
     { page: "page4", nomi: "Витамин-минерал воситалар", rasm: "mol1.jpg" },
-    { page: "page5", nomi: "Бошқа  фарм гурухлар ", rasm: "mol1.jpg" }
+    { page: "page5", nomi: "Бошқа  фарм гурухлар ", rasm: "mol1.jpg" },
+    { page: "page6", nomi: "Бошқа  фарм гурухлар 2 ", rasm: "mol1.jpg" }
 ];
 
 const Home2 = () => {
@@ -75,6 +76,7 @@ const Home2 = () => {
 
                 <div className="section1">
                     <div className="container">
+                        <h1 className='text-center'>Katalog</h1>
                         <div className="row">
                             {dataPage.map((v, i) => {
                                 return <div className="col-lg-4 col-md-6 col-sm-12" key={i+1}>

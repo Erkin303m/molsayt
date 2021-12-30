@@ -58,13 +58,20 @@ const HomeW = styled.div`
     a{
         color:black;
     }
+    .sectionBiz{
+        padding:100px 0 0 0;
+
+    }
   
     .section5{
         padding:100px 0 0 0;
         min-height:100vh;
-       background-image: linear-gradient(to right top, #33d1e9, #57cffc, #83cbff, #adc6ff, #d1c0ff, #c9c6ff, #c2ccff, #bed1ff, #99dfff, #79ecff, #7bf5e6, #a1f9c1);
+       background-image: url("https://media.istockphoto.com/photos/abstract-blurred-blue-background-with-double-exposure-of-bokeh-circle-picture-id1153938533?b=1&k=20&m=1153938533&s=170667a&w=0&h=5Od9ufprW_r1VWfJRhFQhqX2xhpaCNUjK4xmmdZEo8w=");
         background-size: 300% 300%;
         animation: nimadr 15s infinite;
+        input{
+            margin-bottom:15px;
+        }
 
         @keyframes nimadr{
             0%{
