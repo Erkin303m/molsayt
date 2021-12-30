@@ -22,7 +22,7 @@ const Buy = () => {
             timer: 2000
         });
 
-        Array.from(document.querySelectorAll("input")).forEach(input => (input.value = ""));
+        // Array.from(document.querySelectorAll("input")).forEach(input => (input.value = ""));
     }
     return (
         <All>
