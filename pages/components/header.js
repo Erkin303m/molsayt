@@ -5,7 +5,10 @@ import AOS from 'aos'
 import 'aos/dist/aos.css'
 import 'animate.css';
 import Navbar from './navbar'
-import { useRouter } from 'next/router'
+import { useRouter } from 'next/router' 
+import { AiOutlineShoppingCart } from 'react-icons/ai';
+
+
 
 
 
@@ -64,19 +67,13 @@ const Header = () => {
                                                     </a>
                                                 </li>
                                             })}
-                                            {/* <li>Паразитларга қарши воситалар</li>
-                                            <li>Антибактериал ва яллиғланишга қарши воситалар</li>
-                                            <li>dori 3</li>
-                                            <li>dori 4</li>
-                                            <li>dori 5</li>
-                                            <li>dori 6</li> */}
                                            
                                         </ul>
                                   </div>
                                  
                                 </li>
                                 <li className="animate__animated animate__bounceInDown animate__delay-2s">
-                                    <Link href="/page1">
+                                    <Link href="#kontakt">
                                         <a className='headerMenu'>
                                             Kontaktlar
                                         </a>
@@ -92,7 +89,7 @@ const Header = () => {
                                 <li className="animate__animated animate__bounceInDown animate__delay-4s">
                                     <Link href="/buy">
                                         <a className='headerMenu'>
-                                            <button className='btn btn-light'>Buy</button>
+                                            <button className='btn btn-light'>Buy <AiOutlineShoppingCart/></button>
                                         </a>
                                     </Link>
                                 </li>

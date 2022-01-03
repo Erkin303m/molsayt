@@ -3,8 +3,8 @@ import HomeW from '../styleW/homeW'
 import All from './components/all'
 import { Carousel } from 'react-bootstrap';
 import Head from 'next/head'
-import Link from 'next/link';
 import { useRouter } from 'next/router'
+import { ImLocation } from 'react-icons/im';
 
 
 
@@ -46,13 +46,13 @@ const Home2 = () => {
             <All>
                 <Head>
                     <title>Vetco</title>
-                    <meta name="description" content="home page" />
-                    <link rel="icon" href="/favicon.ico" />
+                    <meta name="description" content="Vetco company" />
+                    <link rel="icon" href="logof.jpg" />
                 </Head>
 
                 <div className="section2">
                     <div className="col-12">
-                        <Carousel onSlide={(e) => setNumber(e)}>
+                        <Carousel>
                             {data4.map((v, i) => {
                                 return <Carousel.Item key={i}>
                                     <div className="sliderCard">
@@ -106,7 +106,7 @@ const Home2 = () => {
 
                 <div className="section3">
                  
-                    <h1 className='text-center'>Bizning manzil</h1>
+                    <h1 className='text-center'>Bizning manzil <ImLocation/></h1>
                     <div className="col-12">
                         <iframe
                             className="maps"

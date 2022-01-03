@@ -21,6 +21,7 @@ const ComponentsW=styled.div`
         
         .headerOng{
             display: flex;
+            align-items:center;
            
             .headerUl{
                 display: flex;
@@ -29,7 +30,9 @@ const ComponentsW=styled.div`
                 padding:0;
                 li{
                     margin: 0 10px;
-                    padding: 5px 5px 0 5px;
+                    padding: 0 5px;
+                    display: flex;
+                    align-items:center;
                     color:white;
                     .headerMenu{
                         text-decoration: none;
@@ -41,6 +44,11 @@ const ComponentsW=styled.div`
             }
             
         }
+    }
+    .tugma{
+        background: white;
+        padding: 10px;
+        font-size: 10px;
     }
    
     .navbar{
@@ -55,6 +63,9 @@ const ComponentsW=styled.div`
             display: flex;
         }
 
+    }
+    .logoMobile{
+        margin:0 0 10px 0;
     }
     
 

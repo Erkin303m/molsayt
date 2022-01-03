@@ -3,11 +3,7 @@ import All from './components/all'
 import HomeW from '../styleW/homeW'
 import { useRouter } from 'next/router'
 import Data from '../malumotBazasi/dorilar'
-import { Button, Modal } from 'react-bootstrap';
-
-
-
-
+import Head from 'next/head'
 
 
 
@@ -41,8 +37,14 @@ const Page1 = () => {
 
     return (
         (Data2.length > 0) ? (
+             
             <HomeW>
                 <All>
+                    <Head>
+                        <title>Vetco</title>
+                        <meta name="description" content="home page" />
+                        <link rel="icon" href="logof.jpg" />
+                    </Head>
                     <div className="section4">
                         <div className="container">
                             <h1 className='text-center'>Bizning dorilar !</h1>
@@ -58,10 +60,6 @@ const Page1 = () => {
                                                     Info
                                                 </button>
                                             </div>
-                                           
-
-                                            
-                                           
                                          
                                         </div>
                                     </div>
@@ -73,8 +71,14 @@ const Page1 = () => {
                 </All>
             </HomeW>
         ):(
+            
                 <HomeW>
                     <All>
+                        <Head>
+                            <title>Vetco</title>
+                            <meta name="description" content="home page" />
+                            <link rel="icon" href="logof.jpg" />
+                        </Head>
                         <div className="section1">
                             <div className="container">
                                 <div className="row">

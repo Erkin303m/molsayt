@@ -11,7 +11,7 @@ const Data=[
         name: "page2",
         kattab: [
             { nomi: "dori 2", narxi: "00000", malumot: "malumot 1" },
-            { nomi: "asda", narxi: "54504054", malumot: "malumot 2" },
+            { nomi: "ksjdghd ghdfgh fdh gd fkjgshkughsd fhgdfsh", narxi: "54504054", malumot: "malumot 2" },
             { nomi: "asdasd", narxi: "54504054", malumot: "malumot 3" },
             { nomi: "asdasd", narxi: "54504054", malumot: "malumot 3" },
         ]

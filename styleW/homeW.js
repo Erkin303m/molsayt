@@ -119,11 +119,11 @@ const HomeW = styled.div`
     .section4{
         padding:100px 0 0 0;
         min-height:100vh;
-        background-image: linear-gradient(to right top, #c67da6, #c48bbb, #bf99cd, #baa8dc, #b5b6e8, #afb7ea, #a8b9ec, #a1baee, #95afe9, #8aa5e4, #7f9adf, #758fda);
-        background-size: 300% 300%;
-        animation: nimadr 15s infinite;
+       background-color: white;
+        /* background-size: 300% 300%; */
+        /* animation: nimadr 15s infinite; */
 
-        @keyframes nimadr{
+        /* @keyframes nimadr{
             0%{
                 background-position:bottom left;
             }
@@ -133,20 +133,34 @@ const HomeW = styled.div`
             100%{
                 background-position: bottom left;
             }
-        }
+        } */
         .doriRasm{
             width:100%;
             height:300px;
             object-fit:cover;
             border-radius:10px;
             text-align:center;
+            transform: scale(0.9);
+            transition: 0.3s;
+
+
         }
         .doriCard{
             padding:10px;
             border-radius:10px;
-            border:1px solid black;
             margin: 20px 10px;
-            background: white;
+            background: #CAE2FF;
+            box-shadow:1px 1px 15px black;
+            transition: 0.3s;
+
+            &:hover{
+                box-shadow:3px 3px 15px black;
+                .doriRasm{
+                transform: scale(1);
+                transition: 0.3s;
+
+                }
+            }
             .nomi{
                 color:black;
                 text-align:center;
@@ -156,6 +170,8 @@ const HomeW = styled.div`
             .DoriBut{
                 display: flex;
                 justify-content:space-between;
+                border-top: 1px solid #3E3E3E;
+                padding: 5px;
                 .narxi{
                     color:green;
                     font-weight:bold;   
@@ -165,6 +181,17 @@ const HomeW = styled.div`
             }
            
         }
+    }
+    .rasmPage2{
+        padding:10px;
+        border-right:1px solid #3E3E3E;
+    }
+
+    .page2Rang{
+        background: #CAE2FF;
+        margin: 20px 0;
+        padding: 30px;
+        border-radius:10px;
     }
 
     /* error section */
@@ -177,6 +204,14 @@ const HomeW = styled.div`
         height:100vh;
         .errorImg{
             width:100%;
+        }
+    }
+
+    .bizCard{
+        padding: 10px;
+        img{
+            width: 100%;
+            height: 100%;
         }
     }
   

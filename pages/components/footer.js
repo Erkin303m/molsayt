@@ -14,7 +14,7 @@ const Footer = () => {
             <div className="footerSection">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-4 col-sm-12">
+                        <div className="col-lg-4 col-sm-12" id="kontakt">
                             <p>Contacts</p>
                             <p>+998948998989</p>
                             <p>+998948900989</p>

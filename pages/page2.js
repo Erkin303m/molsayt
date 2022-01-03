@@ -2,7 +2,8 @@ import React, { useEffect, useState } from 'react'
 import All from './components/all'
 import HomeW from '../styleW/homeW'
 import { useRouter } from 'next/router'
-import Data from '../malumotBazasi/dorilar'
+import Head from 'next/head'
+
 
 
 
@@ -23,13 +24,18 @@ const Page2 = () => {
     
         <HomeW>
             <All>
+                <Head>
+                    <title>Vetco</title>
+                    <meta name="description" content="home page" />
+                    <link rel="icon" href="logof.jpg" />
+                </Head>
                 <div className="section4">
                     <div className="container">
                         <h1 className='text-center'> Dori haqida to'liq ma'lumot !</h1>
-                        <div className="row">
+                        <div className="row page2Rang">
 
                             <div className="col-lg-6 col-sm-12">
-                                <div>
+                                <div className='rasmPage2'>
                                     <img src="dori11.jpg" alt="" className='doriRasm' />
 
                                 </div>
