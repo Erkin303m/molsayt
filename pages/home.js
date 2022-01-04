@@ -14,9 +14,9 @@ import { ImLocation } from 'react-icons/im';
 
 const data4 = [
     { rasm: "mol1.jpg", text1: "salom", text2: "Vetco1", info: "Sarlavha uchun so'zlar", info2:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem error commodi unde, dolor voluptatum laudantium, excepturi suscipit accusamus ut modi repellendus asperiores saepe? Qui harum nulla unde sequi delectus alias."},
-    { rasm: "mol1.jpg", text1: "salom", text2: "Vetco2",info:"Sarlavha uchun so'zlar", info2: "Антибактериал ва яллиғланишга қарши воситалар2"},
-    { rasm: "mol1.jpg", text1: "salom", text2: "Vetco3",info:"Sarlavha uchun so'zlar", info2: "Антибактериал ва яллиғланишга қарши воситалар3"},
-    { rasm: "mol1.jpg", text1: "salom", text2: "Vetco4",info:"Sarlavha uchun so'zlar", info2: "Антибактериал ва яллиғланишга қарши воситалар4"},
+    { rasm: "mol1.jpg", text1: "salom", text2: "Vetco2", info: "Sarlavha uchun so'zlar", info2: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem error commodi unde, dolor voluptatum laudantium, excepturi suscipit accusamus ut modi repellendus asperiores saepe? Qui harum nulla unde sequi delectus alias."},
+    { rasm: "mol1.jpg", text1: "salom", text2: "Vetco3", info: "Sarlavha uchun so'zlar", info2: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem error commodi unde, dolor voluptatum laudantium, excepturi suscipit accusamus ut modi repellendus asperiores saepe? Qui harum nulla unde sequi delectus alias."},
+    { rasm: "mol1.jpg", text1: "salom", text2: "Vetco4", info: "Sarlavha uchun so'zlar", info2: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem error commodi unde, dolor voluptatum laudantium, excepturi suscipit accusamus ut modi repellendus asperiores saepe? Qui harum nulla unde sequi delectus alias."},
 ];
 const dataPage = [
     { page: "page1", nomi: "Паразитларга қарши воситалар", rasm: "mol1.jpg" },
