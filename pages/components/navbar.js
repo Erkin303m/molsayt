@@ -37,13 +37,13 @@ const Nabar = () => {
                                        Asosiy
                                     </a>
                                 </Nav.Link>
-                                 <Nav.Link  href='/'>
+                                <Nav.Link href='#kontakt'>
                                     <a className='navbar-brand'>
                                         <span className='logoMobile'><MdCall /> </span>
                                         Kontakt
                                     </a>
                                 </Nav.Link>
-                                <Nav.Link href='/'>
+                                <Nav.Link href='/bizHaqimizda'>
                                     <a className='navbar-brand'>
                                         <span className='logoMobile'><BsPeopleFill /> </span>
                                         Biz haqimizda

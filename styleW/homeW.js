@@ -64,7 +64,7 @@ const HomeW = styled.div`
     }
   
     .section5{
-        padding:100px 0 0 0;
+        padding:100px 0 50px 0;
         min-height:100vh;
        background-image: url("https://media.istockphoto.com/photos/abstract-blurred-blue-background-with-double-exposure-of-bokeh-circle-picture-id1153938533?b=1&k=20&m=1153938533&s=170667a&w=0&h=5Od9ufprW_r1VWfJRhFQhqX2xhpaCNUjK4xmmdZEo8w=");
         background-size: 300% 300%;
@@ -215,6 +215,25 @@ const HomeW = styled.div`
         }
     }
   
+    .carouselRelative{
+        position:relative;
+        .carouselAbsolut{
+            position: absolute;
+            top:0;
+            left:0;
+            width:100%;
+            height:100%;
+            background:rgba(58, 61, 63, 0);
+            display:flex;
+            align-items:center;
+            /* justify-content:start; */
+            color:white;
+            .infoCard{
+                display: flex;
+                justify-content: center;
+            }
+        }
+    }
 
   
 `;
