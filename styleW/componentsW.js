@@ -85,6 +85,7 @@ const ComponentsW=styled.div`
         padding:10px 0;
         font-size:18px;
         color:white;
+        width: 100%;
         p{
             text-align:center;
         }
@@ -140,6 +141,11 @@ const ComponentsW=styled.div`
                 }
             }
         }
+    }
+    .forTable{
+        padding:10px;
+        margin:10px;
+        overflow-x: auto;
     }
    
 

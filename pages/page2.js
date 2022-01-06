@@ -44,43 +44,38 @@ const Page2 = () => {
                                 </div>
 
                             </div>
-
-                            <div className="col-12">
-                                <div>
-                                    <table className="table table-hover">
-                                        <thead>
-                                            <tr className="bg-primary">
-                                                <th scope="col">Препарат номи</th>
-                                                <th scope="col">Таъсир этувчи модда</th>
-                                                <th scope="col">Касалликларга қарши</th>
-                                                <th scope="col">Қадоқ шакли</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td rowSpan={data.qadoqShakliSoni}>{data.nomi}</td>
-                                                <td rowSpan={data.qadoqShakliSoni}>{data.modda}</td>
-                                                <td rowSpan={data.qadoqShakliSoni}>{data.malumot}</td>
-                                                <td>{data.qadoqShakli1}</td>
-
-                                            </tr>
-                                            <tr>
-                                                <td>{data.qadoqShakli_2}</td>
-                                            </tr>
-                                            <tr>
-                                                <td>{data.qadoqShakli_3}</td>
-                                            </tr>
-                                          
-                                        </tbody>
-                                    </table>
-
-
-                                </div>
-
-                            </div>
                             
 
                         </div>
+                        <div className="forTable">
+                            <table className="table table-hover">
+                                <thead>
+                                    <tr className="bg-primary">
+                                        <th scope="col">Препарат номи</th>
+                                        <th scope="col">Таъсир этувчи модда</th>
+                                        <th scope="col">Касалликларга қарши</th>
+                                        <th scope="col">Қадоқ шакли</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td rowSpan={data.qadoqShakliSoni}>{data.nomi}</td>
+                                        <td rowSpan={data.qadoqShakliSoni}>{data.modda}</td>
+                                        <td rowSpan={data.qadoqShakliSoni}>{data.malumot}</td>
+                                        <td>{data.qadoqShakli1}</td>
+
+                                    </tr>
+                                    <tr>
+                                        <td>{data.qadoqShakli_2}</td>
+                                    </tr>
+                                    <tr>
+                                        <td>{data.qadoqShakli_3}</td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
+                        </div>
+                      
                     </div>
                 </div>
             </All>
