@@ -58,9 +58,9 @@ const Page2 = () => {
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td rowspan={data.qadoqShakliSoni}>{data.nomi}</td>
-                                                <td rowspan={data.qadoqShakliSoni}>{data.modda}</td>
-                                                <td rowspan={data.qadoqShakliSoni}>{data.malumot}</td>
+                                                <td rowSpan={data.qadoqShakliSoni}>{data.nomi}</td>
+                                                <td rowSpan={data.qadoqShakliSoni}>{data.modda}</td>
+                                                <td rowSpan={data.qadoqShakliSoni}>{data.malumot}</td>
                                                 <td>{data.qadoqShakli1}</td>
 
                                             </tr>
