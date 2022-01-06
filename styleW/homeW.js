@@ -184,7 +184,6 @@ const HomeW = styled.div`
     }
     .rasmPage2{
         padding:10px;
-        border-right:1px solid #3E3E3E;
     }
 
     .page2Rang{

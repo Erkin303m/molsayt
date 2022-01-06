@@ -30,7 +30,7 @@ const Page1 = () => {
             pathname: "/page2",
             query: { ...v }
         })
-        console.log( "malunmot ketti" , Router2.query);
+        // console.log( "malunmot ketti" , Router2.query);
     }
 
  
@@ -55,7 +55,7 @@ const Page1 = () => {
                                             <img src="dori11.jpg" alt="" className='doriRasm' />
                                             <p className="nomi">{v.nomi}</p>
                                             <div className='DoriBut'>
-                                                <p className="narxi">{v.narxi}</p>
+                                                <p className="narxi">{v.company}</p>
                                                 <button className='btn btn-primary' onClick={() => NextPage2(v)}>
                                                     Info
                                                 </button>

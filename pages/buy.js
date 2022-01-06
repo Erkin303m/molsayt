@@ -3,6 +3,8 @@ import emailjs from 'emailjs-com';
 import swal from 'sweetalert'
 import All from './components/all'
 import HomeW from '../styleW/homeW'
+import Head from 'next/head'
+
 
 
 
@@ -27,9 +29,16 @@ const Buy = () => {
     return (
         <All>
             <HomeW>
+
+                <Head>
+                    <title>Vetco</title>
+                    <meta name="description" content="Vetco company" />
+                    <link rel="icon" href="logof.jpg" />
+                </Head>
+                
                 <div className="section5">
                     <div className="container">
-                        <h1 className="textLocation" >Registratsiya uchun  </h1>
+                        <h1 className="text-center mb-3" >Istagan mahsulotingizni sotib oling !</h1>
                         <form onSubmit={sendEmail}>
                             <div className="row">
 

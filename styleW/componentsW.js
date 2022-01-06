@@ -74,6 +74,11 @@ const ComponentsW=styled.div`
         /* height:100px; */
         object-fit:cover;
     }
+    .buyTugma{
+    background: white;
+    color: #285493;
+    font-weight: bold;
+    }
 
     .footerSection{
         background: #285493;
@@ -112,18 +117,32 @@ const ComponentsW=styled.div`
             display:none;   
             ul{
                 list-style-type: none !important;
-                color:white;
-                background: #285493;
-                border-radius:0 0 10px 10px;
+                background: white;
+                border-radius: 10px;
                 margin:0;
                 padding:0 0 10px 0;
                 li{
                     padding:5px;
                     border-bottom: 1px solid white;   
+                     .katalogH{
+                        background: #E8E8E8;
+                        padding: 5px;
+                        margin: 1px;
+                        color: #285493;
+                        border-radius: 10px;
+                        
+                        &:hover{
+                            background: #285493;
+                            color: white;
+
+                        }
+                    }
                 }
             }
         }
     }
+   
+
 
   
    

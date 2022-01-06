@@ -62,9 +62,12 @@ const Header = () => {
                                         <ul>
                                             {dataPage.map((v,i)=>{
                                                 return <li key={i}>
-                                                    <a onClick={() => NextPage(v)}>
-                                                        {v.nomi}
+                                                    <a onClick={() => NextPage(v)} >
+                                                        <div className="katalogH">
+                                                            {v.nomi}
+                                                        </div>
                                                     </a>
+                                                   
                                                 </li>
                                             })}
                                            
@@ -89,7 +92,7 @@ const Header = () => {
                                 <li className="animate__animated animate__bounceInDown animate__delay-4s">
                                     <Link href="/buy">
                                         <a className='headerMenu'>
-                                            <button className='btn btn-light'>Buy <AiOutlineShoppingCart/></button>
+                                            <button className='btn buyTugma'>Buy <AiOutlineShoppingCart/></button>
                                         </a>
                                     </Link>
                                 </li>

@@ -5,6 +5,7 @@ import { Carousel } from 'react-bootstrap';
 import Head from 'next/head'
 import { useRouter } from 'next/router'
 import { ImLocation } from 'react-icons/im';
+import Data from '../malumotBazasi/dorilar'
 
 
 
@@ -33,12 +34,12 @@ const Home2 = () => {
   
 
 
-    const NextPage = (v) => {
+    const NextPage = (v,i) => {
         Router.push({
             pathname: "/page1",
-            query: { doriTuri: v.page }
+            query: { doriTuri: v.page, color: Data[i].color }
         })
-        console.log(Router.query);
+        // console.log(Router.query);
     }
 
     return (
@@ -94,7 +95,7 @@ const Home2 = () => {
                         <div className="row">
                             {dataPage.map((v, i) => {
                                 return <div className="col-lg-4 col-md-6 col-sm-12" key={i+1}>
-                                    <a onClick={() => NextPage(v)}>
+                                    <a onClick={() => NextPage(v,i)}>
                                         <div className='asosiy' data-aos="zoom-out-up" data-aos-delay={i*100}>
                                             <div className="oddiy">
                                                 <img src={v.rasm} alt="mol" className='molAbsolut' />
