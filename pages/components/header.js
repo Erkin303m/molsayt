@@ -44,7 +44,7 @@ const Header = () => {
                 <div className="container">
                     <div className='header1'>
                         <div className="headerChap">
-                            <img src="logo.png" alt="" className='headerLogo' />
+                            <img src="logof.jpg" alt="" className='headerLogo' />
                         </div>
 
                         <div className="headerOng">

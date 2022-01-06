@@ -70,8 +70,8 @@ const ComponentsW=styled.div`
     
 
     .headerLogo{
-        width:100px;
-        height:50px;
+        width:150px;
+        /* height:100px; */
         object-fit:cover;
     }
 
