@@ -131,6 +131,7 @@ const ComponentsW=styled.div`
                         margin: 1px;
                         color: #285493;
                         border-radius: 10px;
+                         cursor:alias;
                         
                         &:hover{
                             background: #285493;

@@ -1,5 +1,6 @@
 const Data=[
-    { name: "page1", color:"primary",
+    {
+        name: "page1", color: "primary", nomi: "Паразитларга қарши воситалар",
         kattab:[
             {   
                 nomi: "Альвет-суспензия",
@@ -8,7 +9,8 @@ const Data=[
                 malumot: " ЙШМ ва МШМларда турли органларда жойлашган экто ва эндопаразитларга қарши восита.", 
                 qadoqShakliSoni: 2,
                 qadoqShakli1: "бутыль 1 л", 
-                qadoqShakli_2:"Пл. флакон 100 мл"  
+                qadoqShakli_2:"Пл. флакон 100 мл" ,
+                rasm: "1/Alvetsuspenziya.png" 
             },
             {
                 nomi: "Альвет порошок",
@@ -17,6 +19,8 @@ const Data=[
                 malumot: "ЙШМ, МШМ, отларда ҳамда паррандаларда даволаш ва профилактика сифатида нематода, трематода ҳамда цестодаларга қарши восита", 
                 qadoqShakliSoni: 1,
                 qadoqShakli1: "упаковка 500 г",
+                rasm: "1/Alvet.png" 
+
             },
             {
                 nomi: "Бронтель 10 %",
@@ -26,6 +30,9 @@ const Data=[
                 qadoqShakliSoni: 2,
                 qadoqShakli1: "Флакон 100 мл",
                 qadoqShakli_2: "Флакон 200 мл",
+                rasm: "1/rikazol.png" 
+
+
             },
             {
                 nomi: "Бронтел плюс",
@@ -35,7 +42,11 @@ const Data=[
                 qadoqShakliSoni: 1,
                 qadoqShakli1: "100 мл флакон",
                 qadoqShakli_2: "" , 
-                qadoqShakli_3: ""  
+                qadoqShakli_3: ""  ,
+                rasm: "1/rikazol.png" 
+
+
+
             },
             {
                 nomi: "Бровермектин 1%",
@@ -49,7 +60,11 @@ const Data=[
                 qadoqShakliSoni: 2,
                 qadoqShakli1: "Флакон 50 мл",
                 qadoqShakli_2: "Флакон 100 мл",
-                qadoqShakli_3: ""
+                qadoqShakli_3: "",
+                rasm: "1/rikazol.png" 
+
+
+
             },
             {
                 nomi: "Бровадазол 20 %",
@@ -61,7 +76,11 @@ const Data=[
                 qadoqShakliSoni: 1,
                 qadoqShakli1: "Упаковка 1000 гр",
                 qadoqShakli_2: "",
-                qadoqShakli_3: ""
+                qadoqShakli_3: "",
+                rasm: "1/rikazol.png" 
+
+
+
             },
             {
                 nomi: "Брованол плюс таблеткалари",
@@ -78,7 +97,11 @@ const Data=[
                 qadoqShakliSoni: 1,
                 qadoqShakli1: "10 таблетка",
                 qadoqShakli_2: "",
-                qadoqShakli_3: ""
+                qadoqShakli_3: "",
+                rasm: "1/rikazol.png" 
+
+
+
             },
             {
                 nomi: "Бровермектин гель",
@@ -90,7 +113,11 @@ const Data=[
                 qadoqShakliSoni: 1,
                 qadoqShakli1: "30 мл туба шприц",
                 qadoqShakli_2: "",
-                qadoqShakli_3: ""
+                qadoqShakli_3: "",
+                rasm: "1/rikazol.png" 
+
+
+
             },
 
             {
@@ -105,7 +132,11 @@ const Data=[
                 qadoqShakliSoni: 2,
                 qadoqShakli1: "Шприц 5 грамм",
                 qadoqShakli_2: "Шприц 14 грамм",
-                qadoqShakli_3: ""
+                qadoqShakli_3: "",
+                rasm: "1/rikazol.png" 
+
+ 
+
             },
             {
                 nomi: "Ивермек",
@@ -121,7 +152,9 @@ const Data=[
                 qadoqShakliSoni: 3,
                 qadoqShakli1: "флакон 100 мл",
                 qadoqShakli_2: "флакон 20 мл",
-                qadoqShakli_3: "флакон 50 мл"
+                qadoqShakli_3: "флакон 50 мл",
+                rasm: "1/Ivermek.png" 
+
             },
             {
                 nomi: "Левамизол 7, 5%",
@@ -133,7 +166,10 @@ const Data=[
                 qadoqShakliSoni: 3,
                 qadoqShakli1: "100 мл флакон",
                 qadoqShakli_2: "10 мл флакон",
-                qadoqShakli_3: "50 мл флакон"
+                qadoqShakli_3: "50 мл флакон",
+                rasm: "1/rikazol.png" 
+
+
             },
             {
                 nomi: `Мазь
@@ -147,7 +183,11 @@ const Data=[
 Туба 30 гр
 `,
                 qadoqShakli_2: ``,
-                qadoqShakli_3: ``
+                qadoqShakli_3: ``,
+                rasm: "1/rikazol.png" 
+ 
+
+
             },
             {
                 nomi: `Мазь Папилон, 30 г`,
@@ -160,7 +200,11 @@ const Data=[
                 qadoqShakliSoni: 1,
                 qadoqShakli1: `Туба 30 гр`,
                 qadoqShakli_2: ``,
-                qadoqShakli_3: ``
+                qadoqShakli_3: ``,
+                rasm: "1/rikazol.png" 
+
+
+
             },
             {
                 nomi: `Цифлунит`,
@@ -170,7 +214,9 @@ const Data=[
                 qadoqShakliSoni: 1,
                 qadoqShakli1: `100 мл пл идишда`,
                 qadoqShakli_2: ``,
-                qadoqShakli_3: ``
+                qadoqShakli_3: ``,
+                rasm: "1/ciflunit.png" 
+
             },
             {
                 nomi: `Цифлунит ОН`,
@@ -180,7 +226,10 @@ const Data=[
                 qadoqShakliSoni: 1,
                 qadoqShakli1: `100 мл ёки 1 литр идишларда`,
                 qadoqShakli_2: ``,
-                qadoqShakli_3: ``
+                qadoqShakli_3: ``,
+                rasm: "1/cifluniton.png" 
+
+
             },
             {
                 nomi: `Неозидин М`,
@@ -194,7 +243,9 @@ const Data=[
                 qadoqShakliSoni: 1,
                 qadoqShakli1: `флакон 50 мл`,
                 qadoqShakli_2: ``,
-                qadoqShakli_3: ``
+                qadoqShakli_3: ``,
+                rasm: "1/neozidinm.png" 
+
             },
             {
                 nomi: `Неозидин `,
@@ -208,7 +259,10 @@ const Data=[
                 qadoqShakliSoni: 1,
                 qadoqShakli1: `13 мл флаконда 2,36 гр кукун`,
                 qadoqShakli_2: ``,
-                qadoqShakli_3: ``
+                qadoqShakli_3: ``,
+                rasm: "1/neozidin.png" 
+
+
             },
             {
                 nomi: `Немасектин паста отлар учун`,
@@ -220,7 +274,10 @@ Gastrophilus spp. личинкаларига қарши
                 qadoqShakliSoni: 1,
                 qadoqShakli1: `14 грамм шприц`,
                 qadoqShakli_2: ``,
-                qadoqShakli_3: ``
+                qadoqShakli_3: ``,
+                rasm: "1/rikazol.png" 
+
+
             },
             {
                 nomi: `Офтальмо - гель`,
@@ -238,7 +295,11 @@ Gastrophilus spp. личинкаларига қарши
                 qadoqShakliSoni: 1,
                 qadoqShakli1: `4 грамм шприц`,
                 qadoqShakli_2: ``,
-                qadoqShakli_3: ``
+                qadoqShakli_3: ``,
+                rasm: "1/rikazol.png" 
+
+
+
             },
             {
                 nomi: `Риказол`,
@@ -250,7 +311,9 @@ Gastrophilus spp. личинкаларига қарши
                 qadoqShakliSoni: 1,
                 qadoqShakli1: `флакон 100 мл`,
                 qadoqShakli_2: ``,
-                qadoqShakli_3: ``
+                qadoqShakli_3: ``,
+                rasm: "1/rikazol.png" 
+
             },
             {
                 nomi: `Фензол 22%`,
@@ -263,17 +326,10 @@ Gastrophilus spp. личинкаларига қарши
                 qadoqShakliSoni: 2,
                 qadoqShakli1: `150 гр`,
                 qadoqShakli_2: `10 гр`,
-                qadoqShakli_3: ``
-            },
-            {
-                nomi: ``,
-                company: "Nita Farm Company",
-                modda: ``,
-                malumot: ``,
-                qadoqShakliSoni: 2,
-                qadoqShakli1: ``,
-                qadoqShakli_2: ``,
-                qadoqShakli_3: ``
+                qadoqShakli_3: ``,
+                rasm: "1/rikazol.png" 
+
+
             },
             {
                 nomi: `Фунгицидно-
@@ -296,7 +352,11 @@ Gastrophilus spp. личинкаларига қарши
                 qadoqShakliSoni: 2,
                 qadoqShakli1: `50 грамм туба`,
                 qadoqShakli_2: `90 грамм туба`,
-                qadoqShakli_3: ``
+                qadoqShakli_3: ``,
+                rasm: "1/rikazol.png" 
+
+
+
             }
           
             
@@ -304,7 +364,7 @@ Gastrophilus spp. личинкаларига қарши
      },
 
     {
-        name: "page2", color: "red",
+        name: "page2", color: "red", nomi: "Антибактериал ва яллиғланишга қарши воситалар",
         kattab: [
             {
                 nomi:`Азитронит`,
@@ -598,7 +658,7 @@ Gastrophilus spp. личинкаларига қарши
     },
 
     {
-        name: "page3", color: "red",
+        name: "page3", color: "red", nomi: "Акушерликғ-гинекологик воситалар",
         kattab: [
             {
                 nomi: `Бровамаст 2Д`,
@@ -851,7 +911,7 @@ Gastrophilus spp. личинкаларига қарши
         ]
     },
     {
-        name: "page4", color: "red",
+        name: "page4", color: "red", nomi: "Витамин-минерал воситалар",
         kattab: [
             {
                 nomi: `Бутофан OR`,
@@ -1014,7 +1074,7 @@ Gastrophilus spp. личинкаларига қарши
         ]
     },
     {
-        name: "page5", color: "red",
+        name: "page5", color: "red", nomi: "Бошқа  фарм гурухлар ", 
         kattab: [
             {
                 nomi: `Гель
@@ -1155,12 +1215,12 @@ Gastrophilus spp. личинкаларига қарши
             
         ]
     },
-    {
-        name: "page6", color: "red",
-        kattab: [
-            { nomi: "dori 6", narxi: "500000", malumot: "malumot 1" }
-        ]
-    }
+    // {
+    //     name: "page6", color: "red",
+    //     kattab: [
+    //         { nomi: "dori 6", narxi: "500000", malumot: "malumot 1" }
+    //     ]
+    // }
 ];
 
 export default Data

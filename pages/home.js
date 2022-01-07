@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import HomeW from '../styleW/homeW'
 import All from './components/all'
 import { Carousel } from 'react-bootstrap';
@@ -9,10 +9,6 @@ import Data from '../malumotBazasi/dorilar'
 
 
 
-
-
-
-
 const data4 = [
     { rasm: "mol1.jpg", text1: "salom", text2: "Vetco1", info: "Sarlavha uchun so'zlar", info2:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem error commodi unde, dolor voluptatum laudantium, excepturi suscipit accusamus ut modi repellendus asperiores saepe? Qui harum nulla unde sequi delectus alias."},
     { rasm: "mol1.jpg", text1: "salom", text2: "Vetco2", info: "Sarlavha uchun so'zlar", info2: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem error commodi unde, dolor voluptatum laudantium, excepturi suscipit accusamus ut modi repellendus asperiores saepe? Qui harum nulla unde sequi delectus alias."},
@@ -20,7 +16,7 @@ const data4 = [
     { rasm: "mol1.jpg", text1: "salom", text2: "Vetco4", info: "Sarlavha uchun so'zlar", info2: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem error commodi unde, dolor voluptatum laudantium, excepturi suscipit accusamus ut modi repellendus asperiores saepe? Qui harum nulla unde sequi delectus alias."},
 ];
 const dataPage = [
-    { page: "page1", nomi: "Паразитларга қарши воситалар", rasm: "mol1.jpg" },
+    { page: "page1", nomi: "Паразитларга қарши воситалар", rasm: "1/Alvet.png" },
     { page: "page2", nomi: "Антибактериал ва яллиғланишга қарши воситалар", rasm: "mol1.jpg"  },
     { page: "page3", nomi: "Акушерликғ-гинекологик воситалар", rasm: "mol1.jpg"  },
     { page: "page4", nomi: "Витамин-минерал воситалар", rasm: "mol1.jpg" },
@@ -28,15 +24,13 @@ const dataPage = [
 ];
 
 const Home2 = () => {
-    const [number, setNumber] = useState(0);
     const Router = useRouter();
-  
 
 
     const NextPage = (v,i) => {
         Router.push({
             pathname: "/page1",
-            query: { doriTuri: v.page, color: Data[i].color }
+            query: { doriTuri: v.page, nomi: v.nomi }
         })
         // console.log(Router.query);
     }
@@ -116,7 +110,6 @@ const Home2 = () => {
 
                   
                 </div>
-
 
                 <div className="section3">
                  

@@ -38,7 +38,7 @@ const Page2 = () => {
                                 <div className='rasmPage2'>
                                     <h2 className="text-center">{data.nomi}</h2>
                                     <p className="text-center">{data.company}</p>
-                                    <img src="dori11.jpg" alt="" className='doriRasm' />
+                                    <img src={data.rasm} alt={data.rasm} className='doriRasm' />
 
 
                                 </div>
@@ -48,13 +48,13 @@ const Page2 = () => {
 
                         </div>
                         <div className="forTable">
-                            <table className="table table-hover">
+                            <table className="table table-bordered">
                                 <thead>
                                     <tr className="bg-primary">
-                                        <th scope="col">Препарат номи</th>
-                                        <th scope="col">Таъсир этувчи модда</th>
-                                        <th scope="col">Касалликларга қарши</th>
-                                        <th scope="col">Қадоқ шакли</th>
+                                        <th scope="col" className='text-center'>Препарат номи</th>
+                                        <th scope="col" className='text-center'>Таъсир этувчи модда</th>
+                                        <th scope="col" className='text-center'>Касалликларга қарши</th>
+                                        <th scope="col" className='text-center'>Қадоқ шакли</th>
                                     </tr>
                                 </thead>
                                 <tbody>

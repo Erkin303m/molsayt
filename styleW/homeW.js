@@ -97,12 +97,7 @@ const HomeW = styled.div`
             border:1px solid black;
             margin: 20px 10px;
             background: white;
-            .nomi{
-                color:black;
-                text-align:center;
-                font-weight:bold;
-
-            }
+        
             .DoriBut{
                 display: flex;
                 justify-content:space-between;
@@ -165,6 +160,7 @@ const HomeW = styled.div`
                 color:black;
                 text-align:center;
                 font-weight:bold;
+                font-size: 20px;
 
             }
             .DoriBut{

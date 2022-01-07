@@ -13,16 +13,14 @@ const Page1 = () => {
     const Router2 = useRouter();
 
     const Data2 = [];
-    let ii;
 
     for (let i = 0; i < Data.length; i++) {
         if (Data[i].name == Router.query.doriTuri) {
             Data2.push(Data[i]);
-            ii=i;
         }
     }
 
-    // console.log("malumot qoshildi", Data2);
+    console.log("malumot catalog", Router.query.nomi);
 
 
     const NextPage2 = (v) => {
@@ -47,12 +45,12 @@ const Page1 = () => {
                     </Head>
                     <div className="section4">
                         <div className="container">
-                            <h1 className='text-center'>Bizning dorilar !</h1>
+                            <h1 className='text-center'>{Data2[0].nomi} !</h1>
                             <div className="row">
                                 {Data2[0].kattab.map((v, i) => {
                                     return <div className="col-lg-4 col-md-6 col-sm-12" key={i}>
                                         <div className='doriCard'>
-                                            <img src="dori11.jpg" alt="" className='doriRasm' />
+                                            <img src={v.rasm} alt="" className='doriRasm' />
                                             <p className="nomi">{v.nomi}</p>
                                             <div className='DoriBut'>
                                                 <p className="narxi">{v.company}</p>
