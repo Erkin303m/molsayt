@@ -1158,10 +1158,7 @@ Gastrophilus spp. личинкаларига қарши
     {
         name: "page6", color: "red",
         kattab: [
-            { nomi: "dori 6", narxi: "500000", malumot: "malumot 1" },
-            { nomi: "dori 6.2", narxi: "54504054", malumot: "malumot 2" },
-            { nomi: "dori 6.3", narxi: "54504054", malumot: "malumot 3" },
-            { nomi: "dori 6.4", narxi: "54504054", malumot: "malumot 3" },
+            { nomi: "dori 6", narxi: "500000", malumot: "malumot 1" }
         ]
     }
 ];

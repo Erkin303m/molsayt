@@ -24,8 +24,7 @@ const dataPage = [
     { page: "page2", nomi: "Антибактериал ва яллиғланишга қарши воситалар", rasm: "mol1.jpg"  },
     { page: "page3", nomi: "Акушерликғ-гинекологик воситалар", rasm: "mol1.jpg"  },
     { page: "page4", nomi: "Витамин-минерал воситалар", rasm: "mol1.jpg" },
-    { page: "page5", nomi: "Бошқа  фарм гурухлар ", rasm: "mol1.jpg" },
-    { page: "page6", nomi: "Бошқа  фарм гурухлар 2 ", rasm: "mol1.jpg" }
+    { page: "page5", nomi: "Бошқа  фарм гурухлар ", rasm: "mol1.jpg" }
 ];
 
 const Home2 = () => {
