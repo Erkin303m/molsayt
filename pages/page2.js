@@ -65,10 +65,10 @@ const Page2 = () => {
                                         <td>{data.qadoqShakli1}</td>
 
                                     </tr>
-                                    <tr>
+                                    <tr className={` ${data.qadoqShakliSoni == 1 ? "d-none" : "tun"}`}>
                                         <td>{data.qadoqShakli_2}</td>
                                     </tr>
-                                    <tr>
+                                    <tr className={` ${data.qadoqShakliSoni == 1 ? "d-none" : "tun"}  ${data.qadoqShakliSoni == 2 ? "d-none" : "tun"}`}>
                                         <td>{data.qadoqShakli_3}</td>
                                     </tr>
 
