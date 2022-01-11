@@ -12,7 +12,7 @@ const Buy = () => {
 
     const sendEmail = (e) => {
         e.preventDefault();
-        emailjs.sendForm('service_1uwcenv', "template_z6tjqwn", e.target, "user_ea05P0DGJWw0r4OM5Y3bH").then(res => {
+        emailjs.sendForm('service_7acq8yl', "template_27qq4m9", e.target, "user_9nw3sdhwgEtvu8o1e5xJx").then(res => {
             console.log(res);
         }).catch(err => console.log(err))
 

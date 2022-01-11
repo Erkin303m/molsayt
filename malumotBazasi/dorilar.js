@@ -377,7 +377,9 @@ Gastrophilus spp. личинкаларига қарши
                 qadoqShakliSoni: 1,
                 qadoqShakli1: `флакон 100 мл`,
                 qadoqShakli_2: ``,
-                qadoqShakli_3: ``
+                qadoqShakli_3: ``,
+                rasm: "2/amoksigard.png" 
+
             },
             {
                 nomi: `Амоксициллин 150`,
@@ -389,7 +391,9 @@ Gastrophilus spp. личинкаларига қарши
                 qadoqShakliSoni: 2,
                 qadoqShakli1: `флакон 100 мл`,
                 qadoqShakli_2: `флакон, 50 мл`,
-                qadoqShakli_3: ``
+                qadoqShakli_3: ``,
+                rasm: "2/amoksicillin150.png" 
+
             },
             {
                 nomi: `Бровасептол`,
@@ -406,7 +410,9 @@ Gastrophilus spp. личинкаларига қарши
                 qadoqShakliSoni: 3,
                 qadoqShakli1: `100 гр`,
                 qadoqShakli_2: `12 гр`,
-                qadoqShakli_3: `500 гр`
+                qadoqShakli_3: `500 гр`,
+                rasm: "2/amoksicillin150.png" 
+
             },
             {
                 nomi: `Дитрим порошок`,
@@ -420,7 +426,9 @@ Gastrophilus spp. личинкаларига қарши
                 qadoqShakliSoni: 1,
                 qadoqShakli1: `500 гр`,
                 qadoqShakli_2: ``,
-                qadoqShakli_3: ``
+                qadoqShakli_3: ``,
+                rasm: "2/ditrimporowok.png" 
+
             },
             {
                 nomi: `
@@ -437,7 +445,9 @@ Gastrophilus spp. личинкаларига қарши
                 qadoqShakliSoni: 3,
                 qadoqShakli1: `флакон 100 мл`,
                 qadoqShakli_2: `флакон 20 мл`,
-                qadoqShakli_3: `флакон 50 мл`
+                qadoqShakli_3: `флакон 50 мл`,
+                rasm: "2/ditrim.png" 
+
             },
             {
                 nomi: `Пневмотил`,
@@ -447,7 +457,9 @@ Gastrophilus spp. личинкаларига қарши
                 qadoqShakliSoni: 1,
                 qadoqShakli1: `бутыль 1 л`,
                 qadoqShakli_2: ``,
-                qadoqShakli_3: ``
+                qadoqShakli_3: ``,
+                rasm: "2/pnevmotil.png" 
+
             },
             {
                 nomi: `Нитокс 200`,
@@ -460,7 +472,9 @@ Gastrophilus spp. личинкаларига қарши
                 qadoqShakliSoni: 3,
                 qadoqShakli1: `флакон 100 мл`,
                 qadoqShakli_2: `флакон 20 мл`,
-                qadoqShakli_3: `флакон 50 мл`
+                qadoqShakli_3: `флакон 50 мл`,
+                rasm: "2/nitoks200.png" 
+
             },
             {
                 nomi: `Нитокс Форте`,
@@ -477,7 +491,9 @@ Gastrophilus spp. личинкаларига қарши
                 qadoqShakliSoni: 1,
                 qadoqShakli1: `флакон 100 мл`,
                 qadoqShakli_2: ``,
-                qadoqShakli_3: ``
+                qadoqShakli_3: ``,
+                rasm: "2/nitoksForte.png" 
+
             },
             {
                 nomi: `Ранойод`,
@@ -490,7 +506,9 @@ Gastrophilus spp. личинкаларига қарши
                 qadoqShakliSoni: 2,
                 qadoqShakli1: ``,
                 qadoqShakli_2: ``,
-                qadoqShakli_3: ``
+                qadoqShakli_3: ``,
+                rasm: "2/ditrimporowok.png" 
+
             },
             {
                 nomi: `Тилозин 200`,
@@ -505,7 +523,9 @@ Gastrophilus spp. личинкаларига қарши
                 qadoqShakliSoni: 3,
                 qadoqShakli1: `флакон 100 мл`,
                 qadoqShakli_2: `флакон 20 мл`,
-                qadoqShakli_3: `флакон 50 мл`
+                qadoqShakli_3: `флакон 50 мл`,
+                rasm: "2/tilozin.png" 
+
             },
             {
                 nomi: `Тилозин 50`,
@@ -520,7 +540,10 @@ Gastrophilus spp. личинкаларига қарши
                 qadoqShakliSoni: 3,
                 qadoqShakli1: `флакон 100 мл`,
                 qadoqShakli_2: `флакон 20 мл`,
-                qadoqShakli_3: `флакон 50 мл`
+                qadoqShakli_3: `флакон 50 мл`,
+                rasm: "2/tilozin.png"
+
+
             },
             {
                 nomi: `Тим Тил`,
@@ -533,7 +556,10 @@ Gastrophilus spp. личинкаларига қарши
                 qadoqShakliSoni: 2,
                 qadoqShakli1: `Флакон 100 мл`,
                 qadoqShakli_2: `Флакон 50 мл`,
-                qadoqShakli_3: ``
+                qadoqShakli_3: ``,
+                rasm: "2/tilozin.png"
+
+
             },
             {
                 nomi: `Тим Тил 250`,
@@ -548,7 +574,10 @@ Gastrophilus spp. личинкаларига қарши
                 qadoqShakliSoni: 1,
                 qadoqShakli1: `1 литр пласт идишда`,
                 qadoqShakli_2: ``,
-                qadoqShakli_3: ``
+                qadoqShakli_3: ``,
+                rasm: "2/tilozin.png"
+
+
             },
             {
                 nomi: `Цефтонит`,
@@ -561,7 +590,9 @@ Gastrophilus spp. личинкаларига қарши
                 qadoqShakliSoni: 1,
                 qadoqShakli1: `флакон 100 мл`,
                 qadoqShakli_2: ``,
-                qadoqShakli_3: ``
+                qadoqShakli_3: ``,
+                rasm: "2/sevtonit.png" 
+
             },
             {
                 nomi: `Цефтиоклин`,
@@ -574,7 +605,10 @@ Gastrophilus spp. личинкаларига қарши
                 qadoqShakliSoni: 1,
                 qadoqShakli1: `Флакон 100 мл`,
                 qadoqShakli_2: ``,
-                qadoqShakli_3: ``
+                qadoqShakli_3: ``,
+                rasm: "2/tilozin.png"
+
+
             },
             {
                 nomi: `Энронит OR`,
@@ -588,7 +622,9 @@ Gastrophilus spp. личинкаларига қарши
                 qadoqShakliSoni: 1,
                 qadoqShakli1: `бутиль 1 л`,
                 qadoqShakli_2: ``,
-                qadoqShakli_3: ``
+                qadoqShakli_3: ``,
+                rasm: "2/enronitOR.png" 
+
             },
             {
                 nomi: `Доксилокс`,
@@ -601,7 +637,9 @@ Gastrophilus spp. личинкаларига қарши
                 qadoqShakliSoni: 1,
                 qadoqShakli1: `флакон 100 мл`,
                 qadoqShakli_2: ``,
-                qadoqShakli_3: ``
+                qadoqShakli_3: ``,
+                rasm: "2/doksiloks.png" 
+
             },
             {
                 nomi: `Доксилокс ОР`,
@@ -613,7 +651,9 @@ Gastrophilus spp. личинкаларига қарши
                 qadoqShakliSoni: 1,
                 qadoqShakli1: `1 литр пл идишда`,
                 qadoqShakli_2: ``,
-                qadoqShakli_3: ``
+                qadoqShakli_3: ``,
+                rasm: "2/doksiloks_or.png" 
+
             },
               {
                   nomi: `Лексофлон`,
@@ -624,9 +664,11 @@ Gastrophilus spp. личинкаларига қарши
 `,
                 company: `Nita Farm Company`,
                 qadoqShakliSoni: 1,
-                  qadoqShakli1: `Флакон 100 мл`,
+                qadoqShakli1: `Флакон 100 мл`,
                 qadoqShakli_2: ``,
-                qadoqShakli_3: ``
+                qadoqShakli_3: ``,
+                rasm: "2/leksoflon.png" 
+
             },
             {
                 nomi: `Лексофлон ОР`,
@@ -636,7 +678,9 @@ Gastrophilus spp. личинкаларига қарши
                 qadoqShakliSoni: 1,
                 qadoqShakli1: `1 литр пл идишда`,
                 qadoqShakli_2: ``,
-                qadoqShakli_3: ``
+                qadoqShakli_3: ``,
+                rasm: "2/leksoflon_or.png" 
+
             },
             {
                 nomi: `Фарматил – 200
@@ -652,7 +696,9 @@ Gastrophilus spp. личинкаларига қарши
                 qadoqShakliSoni: 2,
                 qadoqShakli1: `Флакон 10 мл`,
                 qadoqShakli_2: `Флакон 50 мл`,
-                qadoqShakli_3: ``
+                qadoqShakli_3: ``,
+                rasm: "2/floroks.png" 
+
             },
         ]
     },
@@ -687,7 +733,9 @@ Gastrophilus spp. личинкаларига қарши
                 qadoqShakliSoni: 1,
                 qadoqShakli1: `блистер (2 табл.)`,
                 qadoqShakli_2: ``,
-                qadoqShakli_3: ``
+                qadoqShakli_3: ``,
+                rasm: "3/YODOPEN.png" 
+
             },
                {
                    nomi: `Крем Эмульсия ДЕК, 100 гр ёки 200 гр`,

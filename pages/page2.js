@@ -40,7 +40,6 @@ const Page2 = () => {
                                     <p className="text-center">{data.company}</p>
                                     <img src={data.rasm} alt={data.rasm} className='doriRasm' />
 
-
                                 </div>
 
                             </div>

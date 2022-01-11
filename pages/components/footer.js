@@ -16,8 +16,8 @@ const Footer = () => {
                     <div className="row">
                         <div className="col-lg-4 col-sm-12" id="kontakt">
                             <p>Contacts</p>
-                            <p>+998948998989</p>
-                            <p>+998948900989</p>
+                            <p>+998994442844</p>
+                            <p>+998994442740</p>
                         </div>
 
                         <div className="col-lg-4 col-sm-12">
@@ -41,7 +41,7 @@ const Footer = () => {
                             </p>
 
                             <p>
-                                <a href="">
+                                <a href="https://youtube.com/channel/UCMNlJE5VeSXdmsvlftdBohQ">
                                     <AiFillYoutube /> YouTube
                                 </a>
                             </p>

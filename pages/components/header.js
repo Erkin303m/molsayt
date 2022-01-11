@@ -46,7 +46,7 @@ const Header = () => {
                         <div className="headerChap">
                             <Link href="/">
                                 <a>
-                                    <img src="vetcologo.png" alt="" className='headerLogo' />
+                                    <img src="logo/logo.png" alt="" className='headerLogo' />
                                 </a>
                             </Link>
                         </div>
