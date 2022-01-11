@@ -229,6 +229,14 @@ const HomeW = styled.div`
             }
         }
     }
+    .hamkorlar{
+        margin:10px;
+        .hamkorlogo{
+            width:200px;
+            height:200px;
+            object-fit:cover;
+        }
+    }
 
   
 `;
