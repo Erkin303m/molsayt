@@ -34,25 +34,25 @@ const Nabar = () => {
                                 <Nav.Link  href='/'>
                                     <a className='navbar-brand'>
                                         <span className='logoMobile'><AiFillHome /> </span>
-                                       Asosiy
+                                        ГЛАВНАЯ
                                     </a>
                                 </Nav.Link>
                                 <Nav.Link href='#kontakt'>
                                     <a className='navbar-brand'>
                                         <span className='logoMobile'><MdCall /> </span>
-                                        Kontakt
+                                        КОНТАКТЫ
                                     </a>
                                 </Nav.Link>
                                 <Nav.Link href='/bizHaqimizda'>
                                     <a className='navbar-brand'>
                                         <span className='logoMobile'><BsPeopleFill /> </span>
-                                        Biz haqimizda
+                                        О НАС
                                     </a>
                                 </Nav.Link>
                                 <Nav.Link href='/buy'>
                                     <a className='navbar-brand'>
                                         <span className='logoMobile'><FaShoppingCart /> </span>
-                                        Sotib olish
+                                        КУПИТЬ
                                     </a>
                                 </Nav.Link>
                                

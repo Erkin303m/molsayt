@@ -15,13 +15,13 @@ const Footer = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-4 col-sm-12" id="kontakt">
-                            <p>Contacts</p>
+                            <p>КОНТАКТЫ</p>
                             <p>+998994442844</p>
                             <p>+998994442740</p>
                         </div>
 
                         <div className="col-lg-4 col-sm-12">
-                            <p>Messengerlar</p>
+                            <p> Мессенджер</p>
                             <p>
                                 <a href="">
                                     <AiFillInstagram /> Instagram
@@ -36,7 +36,7 @@ const Footer = () => {
 
                             <p>
                                 <a href="">
-                                    <BsFacebook /> Telegram
+                                    <BsFacebook /> Facebook
                                 </a>
                             </p>
 
@@ -49,7 +49,7 @@ const Footer = () => {
                         </div>
 
                         <div className="col-lg-4 col-sm-12">
-                            <p>Company name</p>
+                            <p>Компания</p>
                             <div className="logoFooterCard">
                             <img src="logof.jpg" alt="mol" className='logoFooter' />
 

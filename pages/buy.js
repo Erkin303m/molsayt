@@ -38,29 +38,29 @@ const Buy = () => {
                 
                 <div className="section5">
                     <div className="container">
-                        <h1 className="text-center mb-3" >Istagan mahsulotingizni sotib oling !</h1>
+                        <h1 className="text-center mb-3" >Купите продукт, который вы хотите!</h1>
                         <form onSubmit={sendEmail}>
                             <div className="row">
 
                                 <div className="col-sm-12 col-lg-6">
                                     <div className="inputCard" data-aos="zoom-in-right" data-aos-delay='100'>
-                                        <label className="labelI" >FIO</label>
+                                        <label className="labelI" >ФИО</label>
                                         <input type="text" className="form-control" id="FIO" name="FIO" />
                                     </div>
 
                                     <div className="inputCard " data-aos="zoom-in-right" data-aos-delay='100'>
-                                        <label className="labelI" >Telefon raqam</label>
+                                        <label className="labelI" >Телефонный номер</label>
                                         <input type="text" className="form-control" id="NUM" name="NUM" />
                                     </div>
                                 </div>
 
                                 <div className="col-sm-12 col-lg-6">
                                     <div className="inputCard" data-aos="zoom-in-left" data-aos-delay='100'>
-                                        <label className="labelI"  >Olmoqchi bo'lgan mahsulotlaringiz</label>
+                                        <label className="labelI"  >Название продукта, который вы хотите купить</label>
                                         <input type="text" className="form-control" id="namekurs" name="KURS" />
                                     </div>
                                     <div className="inputCard" data-aos="zoom-in-left" data-aos-delay='100'>
-                                        <label className="labelI"  >Nimadir</label>
+                                        <label className="labelI"  >Something</label>
                                         <input type="text" className="form-control" id="nimadir" name='NIM' />
                                     </div>
 
@@ -68,11 +68,11 @@ const Buy = () => {
 
                                 <div className='col-12'>
                                     <div className='inputCard2' data-aos="zoom-out">
-                                            <label className="labelI"  >Savollaringizni yo'llang !</label>
+                                        <label className="labelI"  >Вы можете отправить свои вопросы !</label>
                                             <textarea className="form-control" aria-label="With textarea" name="TEXT"></textarea>
                                     </div>
                                     <div className='d-flex justify-content-center' data-aos="zoom-out">
-                                        <button className='btn btn-primary mt-4'>Sotib olish</button>
+                                        <button className='btn btn-primary mt-4'>КУПИТЬ</button>
                                     </div>
                                 </div>
                             </div>

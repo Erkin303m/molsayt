@@ -129,7 +129,7 @@ const Home2 = () => {
 
                 <div className="section3">
 
-                    <h1 className='text-center'>Bizning hamkorlar </h1>
+                    <h1 className='text-center'>НАШИ ПАРТНЕРЫ </h1>
                   <div className="container mb-5">
                       <div className='row'>
                             <div className="col-lg-3 col-md-4 col-sm-6">
