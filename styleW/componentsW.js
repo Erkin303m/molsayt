@@ -13,6 +13,7 @@ const ComponentsW=styled.div`
     .children{
         min-height:100vh;
         padding-top:30px;
+        width: 100%;
     }
     .header1{
         display:flex;
