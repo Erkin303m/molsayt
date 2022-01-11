@@ -84,7 +84,7 @@ const Home2 = () => {
 
                 <div className="section1">
                     <div className="container">
-                        <h1 className='text-center'>Katalog</h1>
+                        <h1 className='text-center'>КАТАЛОГ</h1>
                         <div className="row">
                             {dataPage.map((v, i) => {
                                 return <div className="col-lg-4 col-md-6 col-sm-12" key={i+1}>
@@ -113,7 +113,7 @@ const Home2 = () => {
 
                 <div className="section3">
                  
-                    <h1 className='text-center'>Bizning manzil <ImLocation/></h1>
+                    <h1 className='text-center'>НАШ АДРЕСС <ImLocation/></h1>
                     <div className="col-12">
                         <iframe
                             className="maps"

@@ -56,12 +56,12 @@ const Header = () => {
                                 <li className="animate__animated animate__bounceInDown animate__delay-0">
                                     <Link href="/">
                                         <a className='headerMenu'>
-                                            Asosiy
+                                            ГЛАВНАЯ
                                         </a>
                                     </Link>
                                 </li>
                                 <li className="animate__animated animate__bounceInDown animate__delay-1s  catalogLi">
-                                  Katalog
+                                    КАТАЛОГ
                                   <div className='catalogCard'>
                                         <ul>
                                             {dataPage.map((v,i)=>{
@@ -82,21 +82,21 @@ const Header = () => {
                                 <li className="animate__animated animate__bounceInDown animate__delay-2s">
                                     <Link href="#kontakt">
                                         <a className='headerMenu'>
-                                            Kontaktlar
+                                            КОНТАКТЫ
                                         </a>
                                     </Link>
                                 </li>
                                 <li className="animate__animated animate__bounceInDown animate__delay-3s">
                                     <Link href="/bizHaqimizda">
                                         <a className='headerMenu'>
-                                            Biz haqimizda
+                                            О НАС
                                         </a>
                                     </Link>
                                 </li>
                                 <li className="animate__animated animate__bounceInDown animate__delay-4s">
                                     <Link href="/buy">
                                         <a className='headerMenu'>
-                                            <button className='btn buyTugma'>Buy <AiOutlineShoppingCart/></button>
+                                            <button className='btn buyTugma'>КУПИТЬ <AiOutlineShoppingCart/></button>
                                         </a>
                                     </Link>
                                 </li>
