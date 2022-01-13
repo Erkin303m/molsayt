@@ -30,7 +30,7 @@ const Data=[
                 qadoqShakliSoni: 2,
                 qadoqShakli1: "Флакон 100 мл",
                 qadoqShakli_2: "Флакон 200 мл",
-                rasm: "1/rikazol.png" 
+                rasm: "1/brontel10.png" 
 
 
             },
@@ -43,9 +43,7 @@ const Data=[
                 qadoqShakli1: "100 мл флакон",
                 qadoqShakli_2: "" , 
                 qadoqShakli_3: ""  ,
-                rasm: "1/rikazol.png" 
-
-
+                rasm: "1/brontelp.png" 
 
             },
             {
@@ -61,7 +59,7 @@ const Data=[
                 qadoqShakli1: "Флакон 50 мл",
                 qadoqShakli_2: "Флакон 100 мл",
                 qadoqShakli_3: "",
-                rasm: "1/rikazol.png" 
+                rasm: "1/brob.png" 
 
 
 
@@ -77,7 +75,7 @@ const Data=[
                 qadoqShakli1: "Упаковка 1000 гр",
                 qadoqShakli_2: "",
                 qadoqShakli_3: "",
-                rasm: "1/rikazol.png" 
+                rasm: "1/broplus.png" 
 
 
 
@@ -98,7 +96,7 @@ const Data=[
                 qadoqShakli1: "10 таблетка",
                 qadoqShakli_2: "",
                 qadoqShakli_3: "",
-                rasm: "1/rikazol.png" 
+                rasm: "1/brontelp.png" 
 
 
 
@@ -114,10 +112,7 @@ const Data=[
                 qadoqShakli1: "30 мл туба шприц",
                 qadoqShakli_2: "",
                 qadoqShakli_3: "",
-                rasm: "1/rikazol.png" 
-
-
-
+                rasm: "1/brovermektin.png" 
             },
 
             {
@@ -133,10 +128,7 @@ const Data=[
                 qadoqShakli1: "Шприц 5 грамм",
                 qadoqShakli_2: "Шприц 14 грамм",
                 qadoqShakli_3: "",
-                rasm: "1/rikazol.png" 
-
- 
-
+                rasm: "1/vormikil.png" 
             },
             {
                 nomi: "Ивермек",
@@ -167,7 +159,7 @@ const Data=[
                 qadoqShakli1: "100 мл флакон",
                 qadoqShakli_2: "10 мл флакон",
                 qadoqShakli_3: "50 мл флакон",
-                rasm: "1/rikazol.png" 
+                rasm: "1/levamizol.png" 
 
 
             },
@@ -184,7 +176,7 @@ const Data=[
 `,
                 qadoqShakli_2: ``,
                 qadoqShakli_3: ``,
-                rasm: "1/rikazol.png" 
+                rasm: "1/levamizol.png" 
  
 
 
@@ -201,7 +193,7 @@ const Data=[
                 qadoqShakli1: `Туба 30 гр`,
                 qadoqShakli_2: ``,
                 qadoqShakli_3: ``,
-                rasm: "1/rikazol.png" 
+                rasm: "1/levamizol.png" 
 
 
 
@@ -275,7 +267,7 @@ Gastrophilus spp. личинкаларига қарши
                 qadoqShakli1: `14 грамм шприц`,
                 qadoqShakli_2: ``,
                 qadoqShakli_3: ``,
-                rasm: "1/rikazol.png" 
+                rasm: "1/nema.png" 
 
 
             },
@@ -296,7 +288,7 @@ Gastrophilus spp. личинкаларига қарши
                 qadoqShakli1: `4 грамм шприц`,
                 qadoqShakli_2: ``,
                 qadoqShakli_3: ``,
-                rasm: "1/rikazol.png" 
+                rasm: "1/oftalno.png" 
 
 
 
@@ -327,7 +319,7 @@ Gastrophilus spp. личинкаларига қарши
                 qadoqShakli1: `150 гр`,
                 qadoqShakli_2: `10 гр`,
                 qadoqShakli_3: ``,
-                rasm: "1/rikazol.png" 
+                rasm: "1/fenzol.png" 
 
 
             },
@@ -353,7 +345,7 @@ Gastrophilus spp. личинкаларига қарши
                 qadoqShakli1: `50 грамм туба`,
                 qadoqShakli_2: `90 грамм туба`,
                 qadoqShakli_3: ``,
-                rasm: "1/rikazol.png" 
+                rasm: "1/fungi.png" 
 
 
 

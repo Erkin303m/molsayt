@@ -23,19 +23,19 @@ const Footer = () => {
                         <div className="col-lg-4 col-sm-12">
                             <p> Мессенджер</p>
                             <p>
-                                <a href="">
+                                <a href="https://www.instagram.com/vetcobiotek/">
                                     <AiFillInstagram /> Instagram
                                 </a>
                             </p>
 
                             <p>
-                                <a href="">
+                                <a href="#">
                                     <FaTelegram /> Telegram
                                 </a>
                             </p>
 
                             <p>
-                                <a href="">
+                                <a href="https://www.instagram.com/vetcobiotek/">
                                     <BsFacebook /> Facebook
                                 </a>
                             </p>

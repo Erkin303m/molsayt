@@ -83,8 +83,6 @@ const BizHaqimizda = () => {
                                     </Carousel>
                                 </div>
                             </div>
-
-                           
                         </div>
                     </div>
                 </div>
