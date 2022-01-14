@@ -149,7 +149,10 @@ const ComponentsW=styled.div`
         margin:10px;
         overflow-x: auto;
     }
-   
+   .footerIco{
+       font-size: 25px;
+       margin-right: 10px;
+   }
 
 
   

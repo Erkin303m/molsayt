@@ -25,32 +25,32 @@ const Footer = () => {
 
                             <div className='d-flex justify-content-center'>
                                 <div className='d-flex'>
-                                    <IoIosCall />
+                                    <IoIosCall className='footerIco' />
                                     <p>+998994442844</p>
                                 </div>
                             </div>
                             <div className='d-flex justify-content-center'>
                                 <div className='d-flex'>
-                                    <IoIosCall />
+                                    <IoIosCall className='footerIco'/>
                                     <p>+998994442940</p>
                                 </div>
                             </div>
                             <div className='d-flex justify-content-center'>
                                 <div className='d-flex'>
-                                    <AiFillHome />
+                                    <AiFillHome className='footerIco' />
                                     <p>100057 , Тошкент , Уста ширин , 114</p>
                                 </div>
                             </div>
 
                             <div className='d-flex justify-content-center'>
                                 <div className='d-flex'>
-                                    <AiOutlineMail />
+                                    <AiOutlineMail className='footerIco' />
                                     <p>vetcobiotek2022@gmail.com</p>
                                 </div>
                             </div>
                              <div className='d-flex justify-content-center'>
                                 <div className='d-flex'>
-                                    <BiTimeFive />
+                                    <BiTimeFive className='footerIco' />
                                     <p>09:00 - 18:00</p>
                                 </div>
                             </div>
@@ -63,25 +63,25 @@ const Footer = () => {
                             <p> Мессенджер</p>
                             <p>
                                 <a href="https://www.instagram.com/vetcobiotek/">
-                                    <AiFillInstagram /> Instagram
+                                    <AiFillInstagram className='footerIco'/> Instagram
                                 </a>
                             </p>
 
                             <p>
                                 <a href="https://t.me/VetcoBiotek_uz">
-                                    <FaTelegram /> Telegram
+                                    <FaTelegram className='footerIco'/> Telegram
                                 </a>
                             </p>
 
                             <p>
                                 <a href="https://www.facebook.com/profile.php?id=100077049813028">
-                                    <BsFacebook /> Facebook
+                                    <BsFacebook className='footerIco'/> Facebook
                                 </a>
                             </p>
 
                             <p>
                                 <a href="https://youtube.com/channel/UCMNlJE5VeSXdmsvlftdBohQ">
-                                    <AiFillYoutube /> YouTube
+                                    <AiFillYoutube className='footerIco'/> YouTube
                                 </a>
                             </p>
                             
