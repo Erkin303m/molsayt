@@ -171,7 +171,7 @@ const Home2 = () => {
                             <Link href="/hamkor">
                                 <a className="hamkorA">
                                     <div className="hamkorlar">
-                                        <h3 className='text-center'>Masterrinf </h3>
+                                        <h3 className='text-center'>Masterrind </h3>
                                         <img src="./masterrinf/logo.jpg" alt="hamkorlar" className="hamkorlogo" />
                                     </div>
                                 </a>
