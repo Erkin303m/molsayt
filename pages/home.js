@@ -133,49 +133,50 @@ const Home2 = () => {
                     <h1 className='text-center'>НАШИ ПАРТНЕРЫ </h1>
                   <div className="container mb-5 hamkorlarr">
                       <div className='row'>
-                            <div className="col-lg-3 col-md-4 col-sm-6">
-                                <Link href="/hamkor">
-                                    <a className="hamkorA">
-                                        <div className="hamkorlar">
-                                            <h3 className='text-center'>Brovafarm</h3>
-                                            <img src="./BROVAFAARMA/brova.png" alt="hamkorlar" className="hamkorlogo" />
-                                        </div>
-                                    </a>
-                                </Link>
-                            </div>
 
-                            <div className="col-lg-3 col-md-4 col-sm-6">
-                                <Link href="/hamkor">
-                                    <a className="hamkorA">
-                                        <div className="hamkorlar">
-                                            <h3 className='text-center'>Kanters</h3>
-                                            <img src="./Kanters/kanters.png" alt="hamkorlar" className="hamkorlogo" />
-                                        </div>
-                                    </a>
-                                </Link>
-                            </div>
+                        <div className="col-lg-3 col-md-4 col-sm-6">
+                            <Link href="/hamkor">
+                                <a className="hamkorA">
+                                    <div className="hamkorlar">
+                                        <h3 className='text-center'>Nitafarm</h3>
+                                        <img src="./NITAFARM/logo.jpg" alt="hamkorlar" className="hamkorlogo" />
+                                    </div>
+                                </a>
+                            </Link>
+                        </div>
+                        
+                        <div className="col-lg-3 col-md-4 col-sm-6">
+                            <Link href="/hamkor">
+                                <a className="hamkorA">
+                                    <div className="hamkorlar">
+                                        <h3 className='text-center'>Brovafarm</h3>
+                                        <img src="./blogo.png" alt="hamkorlar" className="hamkorlogo" />
+                                    </div>
+                                </a>
+                            </Link>
+                        </div>
 
-                            <div className="col-lg-3 col-md-4 col-sm-6">
-                                <Link href="/hamkor">
-                                    <a className="hamkorA">
-                                        <div className="hamkorlar">
-                                            <h3 className='text-center'>Masterrinf </h3>
-                                            <img src="./masterrinf/logo.jpg" alt="hamkorlar" className="hamkorlogo" />
-                                        </div>
-                                    </a>
-                                </Link> 
-                            </div>
+                        <div className="col-lg-3 col-md-4 col-sm-6">
+                            <Link href="/hamkor">
+                                <a className="hamkorA">
+                                    <div className="hamkorlar">
+                                        <h3 className='text-center'>Kanters</h3>
+                                        <img src="./Kanters/kanters.png" alt="hamkorlar" className="hamkorlogo" />
+                                    </div>
+                                </a>
+                            </Link>
+                        </div>
 
-                            <div className="col-lg-3 col-md-4 col-sm-6">
-                                <Link href="/hamkor">
-                                    <a className="hamkorA">
-                                        <div className="hamkorlar">
-                                            <h3 className='text-center'>Nitafarm</h3>
-                                            <img src="./NITAFARM/logo.jpg" alt="hamkorlar" className="hamkorlogo" />
-                                        </div>
-                                    </a>
-                                </Link>
-                            </div>
+                        <div className="col-lg-3 col-md-4 col-sm-6">
+                            <Link href="/hamkor">
+                                <a className="hamkorA">
+                                    <div className="hamkorlar">
+                                        <h3 className='text-center'>Masterrinf </h3>
+                                        <img src="./masterrinf/logo.jpg" alt="hamkorlar" className="hamkorlogo" />
+                                    </div>
+                                </a>
+                            </Link> 
+                        </div>                           
                       </div>
 
                   </div>

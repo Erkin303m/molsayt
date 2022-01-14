@@ -32,7 +32,7 @@ const Footer = () => {
                             <div className='d-flex justify-content-center'>
                                 <div className='d-flex'>
                                     <IoIosCall />
-                                    <p>+998994442740</p>
+                                    <p>+998994442940</p>
                                 </div>
                             </div>
                             <div className='d-flex justify-content-center'>
