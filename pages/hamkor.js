@@ -49,7 +49,7 @@ const Hamkor = () => {
                 </Head>
                 <div className="section4">
                     <div className="container">
-                        <h1 className='text-center'>Company info</h1>
+                        <h1 className='text-center mt-3 mb-5'>НАШИ ПАРТНЕРЫ</h1>
                         <div className="row">
                             {Data.map((v, i) => {
                                 return <div className="col-12" key={i}>
@@ -61,8 +61,6 @@ const Hamkor = () => {
                                         </div>
                                         <div className='DoriBut'>
                                             <p className="narxi">{v.info2}</p>
-                                            
-                                          
                                         </div>
 
                                     </div>

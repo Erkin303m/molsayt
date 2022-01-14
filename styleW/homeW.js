@@ -233,10 +233,11 @@ const HomeW = styled.div`
     }
     .hamkorlar{
         margin:10px;
+        padding-top: 30px;
         .hamkorlogo{
-            width:200px;
-            height:200px;
+            width: 100%;
             object-fit:cover;
+            text-align: center;
         }
     }
     .doriRasm2{
@@ -269,8 +270,16 @@ const HomeW = styled.div`
     .DoriBut{
         margin: 20px 0;
     }
+    .hamkorlarr{
+        a{
+            text-decoration: none;
+        }
+    }
 }
-    
+ .hamkorA{
+    text-decoration: none;
+
+ }   
 
   
 `;
