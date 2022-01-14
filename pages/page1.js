@@ -88,7 +88,6 @@ const Page1 = () => {
                     </All>
                 </HomeW>
         )
-     
     )
 }
 

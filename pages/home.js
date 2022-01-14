@@ -11,16 +11,16 @@ import Data from '../malumotBazasi/dorilar'
 
 const data4 = [
     { rasm: "mol1.jpg", text1: "salom", text2: "Vetco1", info: "Sarlavha uchun so'zlar", info2:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem error commodi unde, dolor voluptatum laudantium, excepturi suscipit accusamus ut modi repellendus asperiores saepe? Qui harum nulla unde sequi delectus alias."},
-    { rasm: "mol1.jpg", text1: "salom", text2: "Vetco2", info: "Sarlavha uchun so'zlar", info2: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem error commodi unde, dolor voluptatum laudantium, excepturi suscipit accusamus ut modi repellendus asperiores saepe? Qui harum nulla unde sequi delectus alias."},
-    { rasm: "mol1.jpg", text1: "salom", text2: "Vetco3", info: "Sarlavha uchun so'zlar", info2: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem error commodi unde, dolor voluptatum laudantium, excepturi suscipit accusamus ut modi repellendus asperiores saepe? Qui harum nulla unde sequi delectus alias."},
-    { rasm: "mol1.jpg", text1: "salom", text2: "Vetco4", info: "Sarlavha uchun so'zlar", info2: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem error commodi unde, dolor voluptatum laudantium, excepturi suscipit accusamus ut modi repellendus asperiores saepe? Qui harum nulla unde sequi delectus alias."},
+    { rasm: "https://agro-olam.uz/wp-content/uploads/2017/12/78123.jpg", text1: "salom", text2: "Vetco2", info: "Sarlavha uchun so'zlar", info2: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem error commodi unde, dolor voluptatum laudantium, excepturi suscipit accusamus ut modi repellendus asperiores saepe? Qui harum nulla unde sequi delectus alias."},
+    { rasm: "https://api.agromart.uz/file/useful-material/main/main-042d1ed8-79a9-4036-b4ec-9da6d7881605.jpeg", text1: "salom", text2: "Vetco3", info: "Sarlavha uchun so'zlar", info2: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem error commodi unde, dolor voluptatum laudantium, excepturi suscipit accusamus ut modi repellendus asperiores saepe? Qui harum nulla unde sequi delectus alias."},
+    { rasm: "https://agronet.uz/wp-content/uploads/2018/12/sut-mahsuldorligi.jpg", text1: "salom", text2: "Vetco4", info: "Sarlavha uchun so'zlar", info2: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem error commodi unde, dolor voluptatum laudantium, excepturi suscipit accusamus ut modi repellendus asperiores saepe? Qui harum nulla unde sequi delectus alias."},
 ];
 const dataPage = [
-    { page: "page1", nomi: "Паразитларга қарши воситалар", rasm: "1/Alvet.png" },
-    { page: "page2", nomi: "Антибактериал ва яллиғланишга қарши воситалар", rasm: "mol1.jpg"  },
-    { page: "page3", nomi: "Акушерликғ-гинекологик воситалар", rasm: "mol1.jpg"  },
-    { page: "page4", nomi: "Витамин-минерал воситалар", rasm: "mol1.jpg" },
-    { page: "page5", nomi: "Бошқа  фарм гурухлар ", rasm: "mol1.jpg" }
+    { page: "page1", nomi: "Паразитларга қарши воситалар", rasm: "https://agro-olam.uz/wp-content/uploads/2017/12/78123.jpg" },
+    { page: "page2", nomi: "Антибактериал ва яллиғланишга қарши воситалар", rasm: "https://api.agromart.uz/file/useful-material/main/main-042d1ed8-79a9-4036-b4ec-9da6d7881605.jpeg"  },
+    { page: "page3", nomi: "Акушерликғ-гинекологик воситалар", rasm: "https://agronet.uz/wp-content/uploads/2018/12/sut-mahsuldorligi.jpg"  },
+    { page: "page4", nomi: "Витамин-минерал воситалар", rasm: "http://storage.kun.uz/source/1/d_tFm5JVVF-u8LuDwCjTeg1zBOlnJiqb.jpg" },
+    { page: "page5", nomi: "Бошқа  фарм гурухлар ", rasm: "https://i1.wp.com/pro-selhoz.ru/wp-content/uploads/2017/09/samye_bolshie_byki_v_mire_14_14074633.jpg" }
 ];
 
 const Home2 = () => {

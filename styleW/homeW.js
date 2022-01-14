@@ -18,7 +18,8 @@ const HomeW = styled.div`
             width: 100%;
             .molAbsolut{
                 width:100%;
-                height:100%;
+                height: 200px;
+                object-fit: cover;
                 border-radius:10px;  
             }
         }
@@ -49,8 +50,9 @@ const HomeW = styled.div`
     }
     .rasmSlider{
         width: 100%;
-        height: 800px;
+        height: 600px;
         object-fit:cover;
+        position: top center;
     }
     .section2{
         width: 100%;
