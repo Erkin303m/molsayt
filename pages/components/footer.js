@@ -68,7 +68,7 @@ const Footer = () => {
                             </p>
 
                             <p>
-                                <a href="#">
+                                <a href="https://t.me/VetcoBiotek_uz">
                                     <FaTelegram /> Telegram
                                 </a>
                             </p>
