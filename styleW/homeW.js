@@ -239,6 +239,38 @@ const HomeW = styled.div`
             object-fit:cover;
         }
     }
+    .doriRasm2{
+        width: 500px;
+        
+    }
+
+.doriCard2{
+    padding:10px;
+    border-radius:10px;
+    margin: 20px 10px;
+    background: #E1E8FF;
+    box-shadow:1px 1px 15px #868686;
+    transition: 0.3s;
+
+    &:hover{
+        box-shadow:3px 3px 15px #868686;
+        .doriRasm{
+        transform: scale(1);
+        transition: 0.3s;
+
+        }
+    }
+    .nomi{
+        font-size: 30px;
+        text-align: center;
+        font-weight: bold;
+        margin: 20px 0 30px 0;
+    }
+    .DoriBut{
+        margin: 20px 0;
+    }
+}
+    
 
   
 `;

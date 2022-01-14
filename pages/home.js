@@ -6,6 +6,7 @@ import Head from 'next/head'
 import { useRouter } from 'next/router'
 import { ImLocation } from 'react-icons/im';
 import Data from '../malumotBazasi/dorilar'
+import Link from 'next/link';
 
 
 
@@ -121,7 +122,7 @@ const Home2 = () => {
                             height="500"
                             frameBorder="0"
                             style={{ border: 0, marginBottom: -6 }}
-                            src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAbG6vGRHd9fMB_GhUei3T-1f1Km3QpvbQ&q=41.3401699,69.2944457&language=ru&maptype=satellite"
+                            src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAbG6vGRHd9fMB_GhUei3T-1f1Km3QpvbQ&q=41.3554403,69.2620444&language=ru&maptype=satellite"
                             allowFullScreen
                         />
                     </div>
@@ -133,10 +134,14 @@ const Home2 = () => {
                   <div className="container mb-5">
                       <div className='row'>
                             <div className="col-lg-3 col-md-4 col-sm-6">
-                                <div className="hamkorlar">
-                                    <img src="https://mobcompany.info/wp-content/uploads/2016/12/LG-G6-render-shows-similar-design-to-LG-G5.png" alt="hamkorlar" className="hamkorlogo" />
-                                    <h3 className='text-center'>Company name</h3>
-                                </div>
+                                <Link href="/hamkor">
+                                    <a>
+                                        <div className="hamkorlar">
+                                            <img src="https://mobcompany.info/wp-content/uploads/2016/12/LG-G6-render-shows-similar-design-to-LG-G5.png" alt="hamkorlar" className="hamkorlogo" />
+                                            <h3 className='text-center'>Company name</h3>
+                                        </div>
+                                    </a>
+                                </Link>
                             </div>
                             <div className="col-lg-3 col-md-4 col-sm-6">
                                 <div className="hamkorlar">
