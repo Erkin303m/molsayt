@@ -35,7 +35,7 @@ const Footer = () => {
                             </p>
 
                             <p>
-                                <a href="https://www.instagram.com/vetcobiotek/">
+                                <a href="https://www.facebook.com/profile.php?id=100077049813028">
                                     <BsFacebook /> Facebook
                                 </a>
                             </p>
