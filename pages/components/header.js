@@ -93,6 +93,15 @@ const Header = () => {
                                         </a>
                                     </Link>
                                 </li>
+                                <li className="animate__animated animate__bounceInDown animate__delay-3s">
+                                    <Link href="/filial">
+                                        <a className='headerMenu'>
+                                            ФИЛИАЛ
+                                        </a>
+                                    </Link>
+                                </li>
+
+                                
                                 <li className="animate__animated animate__bounceInDown animate__delay-4s">
                                     <Link href="/buy">
                                         <a className='headerMenu'>
