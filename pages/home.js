@@ -113,7 +113,7 @@ const Home2 = () => {
                                 </div>
                             </div>
                             <div className="col-lg-3 col-md-6 col-sm-12">
-                                <div classname='p-1 kkk'>
+                                <div className='p-1 kkk'>
                                     <p className='bizP'>Система производства соответствует международным стандартам качества и сертифицирована по ISO 9001 и GMP‑EU (ГОСТР 52249-2009)</p>
                                     <div className='d-flex justify-content-between'>
                                         <img src="https://www.nita-farm.ru/images/GMP.svg" alt="pechat vetco" className='rasm22' />
