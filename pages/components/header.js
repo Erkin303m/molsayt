@@ -13,7 +13,7 @@ import { AiOutlineShoppingCart } from 'react-icons/ai';
 
 
 const dataPage = [
-    { page: "page1", nomi: "Паразитларга қарши воситалар", rasm: "mol1.jpg" },
+    { page: "page1", nomi: "1 Паразитларга қарши воситалар", rasm: "mol1.jpg" },
     { page: "page2", nomi: "Антибактериал ва яллиғланишга қарши воситалар", rasm: "mol1.jpg" },
     { page: "page3", nomi: "Акушерликғ-гинекологик воситалар", rasm: "mol1.jpg" },
     { page: "page4", nomi: "Витамин-минерал воситалар", rasm: "mol1.jpg" },
