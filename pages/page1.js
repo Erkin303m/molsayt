@@ -20,7 +20,7 @@ const Page1 = () => {
         }
     }
 
-    console.log("malumot catalog", Router.query.nomi);
+    console.log("malumot rang", Router.query.rang);
 
 
     const NextPage2 = (v) => {
@@ -47,21 +47,37 @@ const Page1 = () => {
                         <div className="container">
                             <h1 className='text-center'>{Data2[0].nomi} !</h1>
                             <div className="row">
-                                {Data2[0].kattab.map((v, i) => {
-                                    return <div className="col-lg-4 col-md-6 col-sm-12" key={i}>
-                                        <div className='doriCard'>
-                                            <img src={v.rasm} alt="" className='doriRasm' />
-                                            <p className="nomi">{v.nomi}</p>
-                                            <div className='DoriBut'>
-                                                <p className="narxi">{v.company}</p>
-                                                <button className='btn btn-primary' onClick={() => NextPage2(v)}>
-                                                    Info
-                                                </button>
+                                <div className="col-lg-3 col-sm-12">
+                                    <p>salom</p>
+                                </div>
+                                <div className="col-lg-9 col-sm-12">
+                                    <div className="row">
+                                        {Data2[0].kattab.map((v, i) => {
+                                            return <div className="col-lg-4 col-md-6 col-sm-12" key={i}>
+                                                <div className={`doriCard `}>
+                                                    <div>
+                                                        <p className="nomi">{v.nomi}</p>
+                                                        <img src={v.rasm} alt="" className='doriRasm' onClick={() => NextPage2(v)} />
+                                                    </div>
+                                                    <div className={`absoluteP1 ${Data2[0].color}`}>
+                                                        <div className='DoriButp'>
+                                                            <p className="narxi text-center">{v.company}</p>
+                                                            <div className="d-flex justify-content-center m-1">
+                                                                <button className='btn btn-primary' onClick={() => NextPage2(v)}>
+                                                                    Info
+                                                                </button>
+                                                            </div>
+                                                           
+                                                        </div>
+                                                    </div>
+                                                   
+
+                                                </div>
                                             </div>
-                                         
-                                        </div>
+                                        })}
                                     </div>
-                                })}
+                                </div>
+                             
 
                             </div>
                         </div>

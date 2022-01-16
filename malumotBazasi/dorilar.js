@@ -1,6 +1,6 @@
 const Data=[
     {
-        name: "page1", color: "primary", nomi: "Паразитларга қарши воситалар",
+        name: "page1", color: "doriCard1", nomi: "Паразитларга қарши воситалар",
         kattab:[
             {   
                 nomi: "Альвет-суспензия",
@@ -353,7 +353,7 @@ Gastrophilus spp. личинкаларига қарши
      },
 
     {
-        name: "page2", color: "red", nomi: "Антибактериал ва яллиғланишга қарши воситалар",
+        name: "page2", color: "doriCard2", nomi: "Антибактериал ва яллиғланишга қарши воситалар",
         kattab: [
             {
                 nomi:`Азитронит`,
@@ -693,7 +693,7 @@ Gastrophilus spp. личинкаларига қарши
     },
 
     {
-        name: "page3", color: "red", nomi: "Акушерликғ-гинекологик воситалар",
+        name: "page3", color: "doriCard3", nomi: "Акушерликғ-гинекологик воситалар",
         kattab: [
             {
                 nomi: `Бровамаст 2Д`,
@@ -948,7 +948,7 @@ Gastrophilus spp. личинкаларига қарши
         ]
     },
     {
-        name: "page4", color: "red", nomi: "Витамин-минерал воситалар",
+        name: "page4", color: "doriCard4", nomi: "Витамин-минерал воситалар",
         kattab: [
             {
                 nomi: `Бутофан OR`,
@@ -1111,7 +1111,7 @@ Gastrophilus spp. личинкаларига қарши
         ]
     },
     {
-        name: "page5", color: "red", nomi: "Бошқа  фарм гурухлар ", 
+        name: "page5", color: "doriCard5", nomi: "Бошқа  фарм гурухлар ", 
         kattab: [
             {
                 nomi: `Гель

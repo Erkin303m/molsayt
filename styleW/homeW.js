@@ -14,38 +14,26 @@ const HomeW = styled.div`
         position:relative;
         margin:10px;
         transition: 0.3s;
-        .oddiy{
-            width: 100%;
-            .molAbsolut{
-                width:100%;
-                height: 200px;
-                object-fit: cover;
-                border-radius:10px;  
-            }
-        }
-        .absolut{
-            position:absolute;
+        border-radius:10px;
+
+     
+        .absolut2{
             width:100%;
             height:100%;
             transition:0.3s;
-            top:0;
-            left:0;
-            display:flex;
-            justify-content:center;
-            align-items:center;
-            z-index:-1;
+            height: 200px;
             border-radius:10px;
-        }
-        &:hover{
-                transform: scale(1.05);
-            .absolut{
-                z-index:2;
-                box-shadow:5px 5px 15px black;
-                background: rgba(154, 174, 190, 0.445);
-              
+            border: 1px solid #B0B0B0;
+           box-shadow: 1px 1px 10px #B0B0B0;
+           display: flex;
+           justify-content: space-between;
+           flex-direction:column;
 
-                
-            }
+        }
+
+        &:hover{
+           box-shadow: 2px 2px 20px #9A9A9A;
+         
         }
     }
     .rasmSlider{
@@ -94,7 +82,7 @@ const HomeW = styled.div`
             text-align:center;
         }
         .doriCard{
-            padding:10px;
+            /* padding:10px; */
             border-radius:10px;
             border:1px solid black;
             margin: 20px 10px;
@@ -143,20 +131,32 @@ const HomeW = styled.div`
 
         }
         .doriCard{
-            padding:10px;
+            /* padding:10px; */
             border-radius:10px;
             margin: 20px 10px;
-            background: #CAE2FF;
             box-shadow:1px 1px 15px black;
             transition: 0.3s;
+            position: relative;
+            overflow-y: hidden;
 
             &:hover{
                 box-shadow:3px 3px 15px black;
-                .doriRasm{
-                transform: scale(1);
-                transition: 0.3s;
-
+                .absoluteP1{
+                    transform: translateY(0);
+                    transition: 0.4s;
                 }
+            }
+            .absoluteP1{
+                position: absolute;
+                top: 0;
+                left: 0;
+                transform: translateY(100%);
+                width: 100%;
+                height: 100%;
+                transition: 0.4s;
+                display: flex;
+                align-items: end;
+                margin: 0;
             }
             .nomi{
                 color:black;
@@ -249,7 +249,6 @@ const HomeW = styled.div`
     padding:10px;
     border-radius:10px;
     margin: 20px 10px;
-    background: #E1E8FF;
     box-shadow:1px 1px 15px #868686;
     transition: 0.3s;
 
@@ -280,6 +279,76 @@ const HomeW = styled.div`
     text-decoration: none;
 
  }   
+.bizP{
+    font-size:20px;
+    color: #383838;
+    margin: 10px 0;
+}
+.rasmSlider2{
+    width: 100%;
+    height: 300px;
+    object-fit:cover;
+}
+.rasm11{
+    width: 100px;
+}
+.rasm22{
+    width: 100px;
+}
+.kkk{
+    border-left: 1px solid gray;
+}
+.rasmbakteria{
+    width: 70px !important;
+    margin: 15px 0 0 0;
+}
+.rang{
+    width: 100%;
+    height: 20px;
+    border-radius: 10px 10px 0 0;
+}
+.rang1{
+    background:  #FF0000;
+}
+.rang2{
+    background:  #0300FF;
+}
+.rang3{
+    background:  #925712;
+}
+.rang4{
+    background:  #12AE1A;
+}
+.rang5{
+    background:  #8D1486;
+}
+
+.doriCard1{
+    background: #ff000036;
+}
+.doriCard2{
+    background: #0400ff34;
+}
+.doriCard3{
+    background: #92561242;
+}
+.doriCard4{
+    background: #12ae1a34;
+}
+.doriCard5{
+    background: #8d14872a;
+}
+.DoriButp{
+    width: 100%;
+}
+.soat{
+    position: fixed;
+    right: 100px;
+    bottom: 50px;
+    z-index: 50;
+}
+
+
 
   
 `;

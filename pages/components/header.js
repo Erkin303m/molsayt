@@ -60,6 +60,13 @@ const Header = () => {
                                         </a>
                                     </Link>
                                 </li>
+                                <li className="animate__animated animate__bounceInDown animate__delay-3s">
+                                    <Link href="/bizHaqimizda">
+                                        <a className='headerMenu'>
+                                            О НАС
+                                        </a>
+                                    </Link>
+                                </li>
                                 <li className="animate__animated animate__bounceInDown animate__delay-1s  catalogLi">
                                     КАТАЛОГ
                                   <div className='catalogCard'>
@@ -79,33 +86,25 @@ const Header = () => {
                                   </div>
                                  
                                 </li>
-                                <li className="animate__animated animate__bounceInDown animate__delay-2s">
-                                    <Link href="#kontakt">
-                                        <a className='headerMenu'>
-                                            КОНТАКТЫ
-                                        </a>
-                                    </Link>
-                                </li>
+                                
                                 <li className="animate__animated animate__bounceInDown animate__delay-3s">
-                                    <Link href="/bizHaqimizda">
+                                    <Link href="/filial">
                                         <a className='headerMenu'>
-                                            О НАС
+                                            servis
                                         </a>
                                     </Link>
                                 </li>
                                 <li className="animate__animated animate__bounceInDown animate__delay-3s">
                                     <Link href="/filial">
                                         <a className='headerMenu'>
-                                            ФИЛИАЛ
+                                            media
                                         </a>
                                     </Link>
                                 </li>
-
-                                
-                                <li className="animate__animated animate__bounceInDown animate__delay-4s">
-                                    <Link href="/buy">
+                                <li className="animate__animated animate__bounceInDown animate__delay-2s">
+                                    <Link href="/filial">
                                         <a className='headerMenu'>
-                                            <button className='btn buyTugma'>КУПИТЬ <AiOutlineShoppingCart/></button>
+                                            КОНТАКТЫ
                                         </a>
                                     </Link>
                                 </li>
