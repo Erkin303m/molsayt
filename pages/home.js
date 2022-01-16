@@ -41,7 +41,7 @@ const Home2 = () => {
             <All>
                 <Head>
                     <title>Vetco</title>
-                    <meta name="description" content="Vetco company" />
+                    <meta name="description" content="Vetco company zo'r" />
                     <link rel="icon" href="logof.jpg" />
                 </Head>
                 <div className='soat'>
